@@ -1,0 +1,673 @@
+{
+  "@@locale": "ca",
+  "app_title": "Portafirmas",
+  "login_subtitle": "signa peticions de forma senzilla",
+  "login_access_btn": "Accedir",
+  "login_help_sheet_title": "Accés a Portafirmas",
+  "login_help_sheet_content_1": "Per poder accedir a Portafirmas, cal que el teu organisme t’hagi creat un compte d’usuari al teu servidor. El teu usuari podrà accedir tant a Portafirmas des del web com des de l’app.\nPer entrar, hauràs d’afegir un certificat electrònic a l’app de Portafirmas o accedir mitjançant Cl@ve permanent i utilitzar el teu certificat al núvol.\nSi tens cap dubte o problema, pots contactar amb el ",
+  "login_help_sheet_content_2": "servei de suport del teu organisme.",
+  "access_button_change_auth": "Canviar mètode d’identificació",
+  "access_button_server_manage": "Administració de servidors",
+  "general_understood": "Entesos",
+  "general_continue": "Continuar",
+  "general_try_again": "Tornar a intentar-ho",
+  "general_back": "Enrere",
+  "general_clave": "Cl@ve permanent",
+  "general_certificate": "Certificat electrònic",
+  "general_dni": "DNI electrònic",
+  "general_need_help": "Necessites ajuda?",
+  "general_clave_portal": "Portal Cl@ve",
+  "general_call_060": "Trucar al 060",
+  "general_contact_form": "Formulari de contacte",
+  "general_pass": "Contrasenya",
+  "general_server": "Servidor",
+  "general_change": "Canviar",
+  "general_change_server": "Canviar servidor",
+  "general_change_cert": "Canviar certificat",
+  "general_register_me": "Registrar-me",
+  "general_select": "Seleccionar",
+  "general_add": "Afegir",
+  "general_modify": "Modificar",
+  "general_retry": "Reintentar",
+  "general_save": "Desar",
+  "general_problem_title": "S’ha produït un problema",
+  "error_text": "Error",
+  "error_new_version_title": "Nova versió disponible",
+  "error_new_version_subtitle": "Hi ha una nova actualització de Portafirmas.",
+  "skip_text": "Ometre",
+  "error_update_app_title": "Actualització obligatòria de Portafirmas v.",
+  "error_update_app_subtitle": "Per poder continuar utilitzant l’aplicació, cal actualitzar-la.",
+  "error_update_button": "Actualitzar",
+  "version_text": "Versió v{version}",
+  "@version_text": {
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "2.0.3"
+      }
+    }
+  },
+  "error_login_cert_title": "Error d’inici de sessió",
+  "error_login_cert_subtitle": "¡Alguna cosa ha anat malament! S'ha produït un error en iniciar la sessió amb certificat. Espera uns minuts abans de tornar a intentar l'operació.",
+  "server_default_general_title": "Servidor general AGE",
+  "server_default_general_subtitle": "Organismes de l’Administració General de l’Estat.",
+  "server_default_redsara_title": "Servidor resta d’administracions",
+  "server_default_redsara_subtitle": "CA, EL, universitats i altres organismes donats d’alta en aquest servei.",
+  "select_server_title": "Quin servidor vols utilitzar?",
+  "select_server_subtitle": "Si no saps a quin servidor t’has de connectar, posa’t en contacte amb el servei de suport del teu organisme. Cal haver donat d’alta prèviament l’usuari en el servidor seleccionat.",
+  "select_server_add_server_title": "Vols afegir un altre servidor?",
+  "select_server_add_server_sub": "Si el teu organisme té un servidor específic, podràs afegir un nou servidor.",
+  "select_server_add_server": "Afegir servidor",
+  "add_server_title": "Afegir nou servidor",
+  "add_server_sub": "Per afegir un nou servidor, cal assignar-li un àlies i una URL.",
+  "add_server_textfield_1_label": "Introdueix un àlies",
+  "add_server_textfield_1_hint": "El meu servidor",
+  "add_server_textfield_2_label": "URL",
+  "add_server_save_btn": "Desar servidor",
+  "add_server_modal_success_title": "Servidor desat",
+  "add_server_modal_success_sub": "El servidor {serverName} s’ha afegit correctament.",
+  "@add_server_modal_success_sub": {
+    "placeholders": {
+      "serverName": {
+        "type": "String",
+        "example": "El meu servidor"
+      }
+    }
+  },
+  "add_server_modal_error_title": "Error en afegir el servidor",
+  "add_server_modal_error_sub": "No hem pogut afegir el servidor {serverName}; revisa la URL introduïda o torna’l a afegir de nou.",
+  "@add_server_modal_error_sub": {
+    "placeholders": {
+      "serverName": {
+        "type": "String",
+        "example": "El meu servidor"
+      }
+    }
+  },
+  "expired_session_modal_header": "La sessió ha expirat",
+  "expired_session_modal_description": "La sessió a Portafirmas caduca periòdicament per motius de seguretat. Torna a iniciar la sessió.",
+  "add_server_server_url": "Introdueix la URL del servidor",
+  "add_server_server_url_format_error": "El format de la URL no és vàlid",
+  "choose_id_title": "Tria el mètode d’identificació",
+  "choose_id_register": "Registrar-me a Cl@ve permanent",
+  "choose_id_overlay_clave_title": "Tria la forma de registre que millor s’adapti a tu",
+  "choose_id_overlay_help_sub": "Si necessites informació addicional sobre com utilitzar o registrar-te a Cl@ve, pots demanar-la a través dels mitjans següents.",
+  "choose_id_overlay_videocall": "Videotrucada o carta",
+  "choose_id_overlay_in_person": "Presencial",
+  "choose_id_overlay_youtube": "Accedeix al nostre canal de YouTube",
+  "choose_id_overlay_clave_sub": "Si necessites informació addicional sobre com utilitzar o registrar-te a Cl@ve, pots demanar-la a través dels mitjans següents.",
+  "generic_detail": "Detall",
+  "detail_title": "Plec obra aiguamoll",
+  "detail_subtitle": "De: ",
+  "generic_more_details": "Més detalls",
+  "detail_pendent_sign_title": "Petició pendent de signar com a autoritzat de:",
+  "generic_init_date": "Data de la darrera actualització",
+  "generic_expired_date": "Data de caducitat",
+  "generic_reference": "Referència",
+  "generic_remarks": "Observacions",
+  "generic_sign": "Signatura",
+  "generic_applicant": "Sol·licitant",
+  "generic_approval": "Vistiplau",
+  "generic_application": "Aplicació",
+  "generic_message": "Missatge",
+  "generic_addressee": "Destinataris",
+  "generic_annexes": "Annexos",
+  "generic_annex": "Annex",
+  "addressee_parallel_header": "Signatura en paral·lel",
+  "addressee_parallel_title": "Els signants poden fer la signatura o vistiplau de la petició sense un ordre establert.",
+  "addressee_fall_header": "Signatura en cascada",
+  "addressee_fall_title": "Els signants han de fer la signatura o vistiplau en l’ordre establert pel sol·licitant en la petició de signatura. Un signant només pot fer l’acció un cop completada pel predecessor.",
+  "documentos_page_error": "No es pot previsualitzar aquest fitxer.",
+  "generic_documents_to_sign": "Documents per signar",
+  "generic_documents": "Documents",
+  "generic_button_sign": "Signar / Vistiplau",
+  "generic_button_reject": "Rebutjar",
+  "generic_button_validate": "Validar",
+  "validate_module_title": "Validació de petició",
+  "validate_module_petitions_title": "Validació de peticions",
+  "validate_module_petitions_subtitle": "Validaràs {numPetitions} peticions.",
+  "@validate_module_petitions_subtitle": {
+    "placeholders": {
+      "numPetitions": {}
+    }
+  },
+  "validate_module_subtitle": "Validaràs la petició.",
+  "validate_module_title_final_step": "Petició validada correctament",
+  "validate_multiple_module_title_final_step": "Peticions validades correctament",
+  "validate_module_subtitle_final_step": "Has validat la petició correctament.",
+  "validate_multiple_module_subtitle_final_step": "Has validat {petitions} peticions.",
+  "@validate_multiple_module_subtitle_final_step": {
+    "placeholders": {
+      "petitions": {}
+    }
+  },
+  "sign_validate_title": "Signatura/vistiplau de peticions",
+  "sign_validate_subtitle_simple": "Signaràs o donaràs el vistiplau a la petició\n",
+  "sign_validate_subtitle_sign_reqs": "Signaràs {signReqs, plural, =0{} =1{1 petició} other{{signReqs} peticions}}",
+  "@sign_validate_subtitle_sign_reqs": {
+    "placeholders": {
+      "signReqs": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "y_text": "i",
+  "sign_validate_subtitle_approval_reqs": "{approvalReqs, plural, =0{} =1{donaràs el vistiplau a 1 petició} other{donaràs el vistiplau a {approvalReqs} peticions.}}",
+  "@sign_validate_subtitle_approval_reqs": {
+    "placeholders": {
+      "signReqs": {
+        "type": "int",
+        "example": "2"
+      },
+      "approvalReqs": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "generic_message_module_final_step_title": "Peticions signades correctament",
+  "generic_message_module_final_step_title_simple": "Petició signada o donada el vistiplau correctament",
+  "detail_sign_module_final_text_simple": "Has signat o donat el vistiplau a la petició correctament.",
+  "detail_sign_module_final_text": "Has signat {petitions, plural, =1{1 petició} other{{petitions} peticions}} i donat el vistiplau a {checkPetitions, plural, =1{1 petició} other{{checkPetitions} peticions}}.",
+  "@detail_sign_module_final_text": {
+    "placeholders": {
+      "petitions": {},
+      "checkPetitions": {}
+    }
+  },
+  "sign_validate_cloud_certificate": "amb el certificat al núvol.",
+  "sign_validate_cert_name": "amb el certificat {certName}",
+  "@sign_validate_cert_name": {
+    "placeholders": {
+      "certName": {
+        "type": "String",
+        "example": "El meu certificat"
+      }
+    }
+  },
+  "request_data_card_status": "Estat",
+  "request_data_card_status_rejected": "Rebutjada",
+  "request_data_card_status_cancelled": "Cancelada",
+  "request_data_card_status_revoked": "Revocada",
+  "request_reject_module_title": "Rebuig de peticions",
+  "request_reject_module_text_simple": "Rebutjaràs la petició.",
+  "request_reject_module_text": "Rebutjaràs {rejectedRequests} peticions.",
+  "@request_reject_module_text": {
+    "placeholders": {
+      "rejectedRequests": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "detail_reject_module_input_label": "Motiu (opcional)",
+  "detail_reject_module_input_comment": "Escriu el teu comentari",
+  "general_cancel": "Cancel·lar",
+  "reject_module_final_title_plural": "Peticions rebutjades correctament",
+  "reject_module_final_title_simple": "Petició rebutjada correctament",
+  "reject_module_simple_subtitle": "La petició s’ha rebutjat correctament.",
+  "reject_module_plural_subtitle": "S’han rebutjat {rejectedRequests} peticions.",
+  "@reject_module_plural_subtitle": {
+    "placeholders": {
+      "rejectedRequests": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "register_cert_title": "Registra el teu certificat",
+  "register_cert_btn": "Registrar certificat",
+  "cert_pass_title": "Contrasenya del certificat",
+  "cert_pass_subtitle": "Introdueix la contrasenya per instal·lar el certificat: {certName}",
+  "@cert_pass_subtitle": {
+    "placeholders": {
+      "certName": {
+        "type": "String",
+        "example": "El meu certificat"
+      }
+    }
+  },
+  "cert_valid_till": "Vàlid fins a: ",
+  "cert_not_valid": "El certificat no és vàlid",
+  "cert_not_valid_expired": "El certificat està caducat.",
+  "cert_not_valid_revoked": "El certificat està revocat.",
+  "cert_not_valid_user_no_permission": "L'usuari no té permisos.",
+  "cert_not_valid_description_expired": "Poseu-vos en contacte amb l'administrador del sistema per sol·licitar l'accés o verificar les vostres credencials.",
+  "cert_not_valid_description_revoked": "Poseu-vos en contacte amb l'administrador del sistema per sol·licitar l'accés o verificar les vostres credencials.",
+  "cert_not_valid_description_user_no_permission": "L'usuari no disposa d'un compte en aquest portafirmes. Verifiqui les seves credencials o poseu-vos en contacte amb l'administrador per sol·licitar accés.",
+  "cert_not_valid_description": "S'ha produït un error de validació de certificats i no s'ha pogut iniciar la sessió a Portafirmes. Prova-ho de nou amb un altre certificat.",
+  "cert_use": "Ús: ",
+  "cert_emitter": "Emissor: ",
+  "servers_title": "Servidors",
+  "servers_subtitle": "Servidors desats a l’app",
+  "servers_text_guide": "Selecciona el servidor d’aquesta llista que vulguis fer servir com a predeterminat.",
+  "servers_edit_servers": "Editar servidor seleccionat",
+  "servers_notification_edit": "S’ha canviat el servidor predeterminat",
+  "edit_server_title": "Editar servidor",
+  "edit_server_subtitle": "Quin servidor vols editar?",
+  "edit_server_delete": "Eliminar servidor",
+  "delete_server_text": "Segur que vols eliminar el servidor seleccionat? Si continues, se seleccionarà automàticament com a predeterminat el següent servidor de la llista.",
+  "delete_server_notification": "S’ha eliminat el servidor",
+  "onboarding_1_title": "Signa peticions",
+  "onboarding_1_subtitle": "Accedeix a les peticions pendents\n i signa-les o dona-hi el vistiplau.",
+  "onboarding_2_title": "Comparteix documents",
+  "onboarding_2_subtitle": "Comparteix els documents associats a\nles peticions de signatura per correu o pel\nmitjà que prefereixis.",
+  "onboarding_3_title": "Consulta els detalls\n de la petició",
+  "onboarding_3_subtitle": "Accedeix al document de signatura, revisa\n els annexos i obtén la informació \nnecessària per signar.",
+  "end_msg": "Finalitzar",
+  "next_msg": "Següent",
+  "skip_msg": "Saltar",
+  "filters_title": "Filtres",
+  "filters_order": "Ordenació",
+  "filters_select_order": "Selecciona l’ordre",
+  "filters_select_sort": "Selecciona l’ordenació",
+  "filters_select_request_type": "Selecciona el tipus de petició",
+  "filters_enter_topic": "Introdueix un assumpte o nom d’usuari",
+  "filters_select_time_interval": "Selecciona l’interval de temps",
+  "filters_application": "Selecciona l’aplicació",
+  "filters_clear_filters_button": "Netejar els filtres",
+  "filters_apply_filters_button": "Aplicar filtres",
+  "filters_more_recent_req": "Peticions més recents",
+  "filters_oldest_req": "Peticions més antigues",
+  "filters_req_about_to_expire": "Peticions de caducitat propera",
+  "filters_all_req": "Totes",
+  "filters_validated_req": "Peticions validades",
+  "filters_not_validated_req": "Peticions no validades",
+  "filters_sign_req": "Peticions de signatura",
+  "filters_approval_req": "Peticions de vistiplau",
+  "filters_last_24h": "Darreres 24 hores",
+  "filters_last_week": "Darrera setmana",
+  "filters_last_month": "Darrer mes",
+  "filters_chip_not_validated": "No validades",
+  "pending_tab_text": "Pendents",
+  "rejected_tab_text": "Rebutjades",
+  "validated_tab_text": "Validades",
+  "signed_tab_text": "Signades",
+  "signature_text": "Signatura",
+  "approval_text": "Vistiplau",
+  "request_tips_1": "Estàs veient les ",
+  "request_tips_2": "peticions validades",
+  "select_profile_title": "Amb quin perfil vols accedir?",
+  "request_notification_title": "Informació",
+  "request_notification_message": "Entrant com a signant, podràs signar les teves peticions i, si escau, les que reps com a autoritzat (substitut o delegat) d’algú. Si entres com a validador, podràs validar les peticions pertanyents a la persona de la qual n’ets validador/a.",
+  "request_data_card_priority": "Prioritat",
+  "request_data_card_last_date": "Data",
+  "request_data_card_expiration_date": "Caducitat",
+  "request_data_card_limit_date": "{count, plural, =0{Hoy} =1{Queda 1 dia} other{Queden {count} dies}}",
+  "@request_data_card_limit_date": {
+    "description": "Missatge en plural",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "cert_added_title": "Certificat afegit",
+  "cert_added_subtitle": "El certificat s’ha afegit correctament a l’app de Portafirmas.",
+  "cert_error_adding_title": "No hem pogut afegir el teu certificat",
+  "cert_error_adding_subtitle": "No hem pogut afegir el teu certificat a l’aplicació de Portafirmas. \nTorna-ho a intentar més tard.",
+  "certificate_list_title": "Certificats",
+  "certificate_list_subtitle": "Certificats afegits a l’app",
+  "certificate_not_found_subtitle": "No hi ha cap certificat disponible",
+  "certificate_error_problems_with_certificates_title": "Problemes en seleccionar",
+  "certificate_error_problems_with_certificates_subtitle": "Recorda que, si vols accedir a l’app, has de seleccionar un certificat o afegir-ne un de nou. Pots afegir-lo des del botó “afegir” del menú superior.",
+  "certificate_warning_has_certificates_installed_title": "Tens certificats instal·lats?",
+  "certificate_warning_has_certificates_installed_subtitle": "Si no tens instal·lat cap certificat, pots afegir-lo des del botó “afegir” del menú superior. Si ja tens el teu certificat instal·lat, selecciona’l per poder utilitzar-lo a Portafirmas.",
+  "certificate_empty_title": "No tens certificats instal·lats",
+  "certificate_empty_subtitle": "Instal·la un nou certificat des del botó “afegir” del menú superior.",
+  "default_certificate_explain": "Cal seleccionar un certificat per accedir a l’aplicació",
+  "certificate_deleted_overlay_success_title": "Certificat eliminat",
+  "certificate_deleted_overlay_success_subtitle": "S’ha eliminat el certificat {certName}",
+  "@certificate_deleted_overlay_success_subtitle": {
+    "placeholders": {
+      "certName": {
+        "type": "String"
+      }
+    }
+  },
+  "cert_card_emitter": "Emissor: {emitter}",
+  "@cert_card_emitter": {
+    "placeholders": {
+      "emitter": {
+        "type": "String",
+        "example": "FMNT"
+      }
+    }
+  },
+  "cert_card_valid_date": "Vàlid fins a: {date}",
+  "@cert_card_valid_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "cert_usage_label": "Ús: {usage}",
+  "@cert_usage_label": {
+    "placeholders": {
+      "usage": {
+        "type": "String"
+      }
+    }
+  },
+  "cert_usage_signing": "Signatura",
+  "cert_usage_authentication": "Autenticació",
+  "cert_usage_encryption": "Encriptat",
+  "cert_list_delete": "Eliminar certificat seleccionat",
+  "generic_informs_sign": "Informes de signatura",
+  "info_sign_module": "Aquest document s’ha signat electrònicament. Encara que no es pugui veure en la previsualització del fitxer, el document té associades les signatures corresponents, com es pot comprovar en obrir el fitxer amb Adobe Acrobat.",
+  "info_generic_informs_module": "Aquest document no té signatures associades, és un justificant de les signatures associades al document en qüestió amb les dades necessàries per poder identificar-lo i amb el codi segur de verificació (CSV) per poder localitzar-lo a través de la seu electrònica de l’Administració. Des d’aquí, es podrà descarregar el document signat.",
+  "language_text": "Idioma",
+  "close_text": "Tancar",
+  "user_text": "Usuari",
+  "result_text": " resultats",
+  "active_text": "Activa",
+  "revoked_text": "Rebutjada",
+  "inactive_text": "Inactiva",
+  "pending_text": "Pendent",
+  "accept_text": "Acceptar",
+  "decline_text": "Rebutjar",
+  "delegate_user_text": "Delegat",
+  "substitute_user_text": "Substitut",
+  "signer_user_text": "Signant",
+  "profile_text": "Perfil",
+  "profiles_text": "Perfils",
+  "authorization_text": "Autoritzacions",
+  "validation_text": "Validadors",
+  "petition_send_text": "Enviades",
+  "petition_received_text": "Rebuda",
+  "petition_received_plural_text": "Rebudes",
+  "authorization_state_text": "Estat",
+  "push_notifications_text": "Avisos push",
+  "support_text": "Suport",
+  "help_text": "AJUDA",
+  "questions_text": "Preguntes freqüents",
+  "policy_text": "Política de privacitat",
+  "accesibility_text": "Accessibilitat",
+  "legal_warning_text": "Avís legal",
+  "observation_text": "Observacions",
+  "logout_text": "Tancar la sessió",
+  "date_start_text": "Des de",
+  "date_end_text": "Fins a",
+  "date_empty_text": "Sense data",
+  "date_starting_date_text": "Data d’inici",
+  "date_ending_date_text": "Data de finalització: ",
+  "authorization_type_text": "Tipus d’autorització",
+  "authorization_received_type_text": "Tipus de sol·licitud",
+  "authorization_time_text": "Temps d’autorització",
+  "authorization_type_user_text": "Tipus d’autoritzat",
+  "validator_of_user_text": "Validador de ",
+  "new_validator_text": "Nou validador",
+  "error_result_text": "No s’han trobat resultats",
+  "error_result_text_tip": "Prova amb una altra paraula clau i torna a iniciar la cerca,",
+  "new_authorized_text": "Nou autoritzat",
+  "textfield_hint_text": "Introdueix nom/NIF",
+  "add_new_authorized_button": "Afegir nou",
+  "add_new_validator_button": "Afegir nou validador",
+  "send_petition_button": "Enviar autorització",
+  "cancel_petition_button": "Cancel·lar autorització",
+  "add_validator_success": "Validador afegit correctament",
+  "request_send_success": "Sol·licitud enviada correctament",
+  "request_send_failed": "S’ha produït un problema",
+  "request_send_failed_text": "No hem pogut carregar el detall de la petició seleccionada.",
+  "request_failed_max_time": "S’ha superat el temps màxim d’espera del servei",
+  "settings_screen_configuration_title": "LA MEVA CONFIGURACIÓ",
+  "settings_screen_information_title": "INFORMACIÓ GENERAL",
+  "settings_screen_validators_menu": "Gestió de validadors",
+  "settings_screen_authorizations_menu": "Gestió d’autoritzacions",
+  "profiles_screen_subtitle": "Selecciona el perfil amb què vols\n accedir al teu Portafirmas",
+  "profiles_screen_description": "Entrant com a signant, podràs signar les teves peticions i, si escau, les que reps com a autoritzat (substitut o delegat) d’algú. Si entres com a validador, podràs validar les peticions pertanyents a la persona de la qual n’ets validador/a.",
+  "validators_screen_subtitle": "Aquestes són les persones que has autoritzat com a validadors de les teves peticions.",
+  "add_new_validator_modal": "Has afegit {validatorName} a la teva llista de validadors.",
+  "@add_new_validator_modal": {
+    "placeholders": {
+      "validatorName": {
+        "type": "String",
+        "example": "@name"
+      }
+    }
+  },
+  "add_new_validator_modal_failed": "No s’ha pogut afegir {validatorName} com a validador. Torna a intentar-ho més tard.",
+  "@add_new_validator_modal_failed": {
+    "placeholders": {
+      "validatorName": {
+        "type": "String",
+        "example": "@name"
+      }
+    }
+  },
+  "error_message_timeExpired_request": "El servidor ha trigat més del que és habitual a respondre. Si us plau, revisa si la teva petició s'ha cursat correctament.",
+  "error_message_timeExpired_requests": "El servidor ha trigat més del que és habitual a respondre. Si us plau, revisa si les teves peticions s'han cursat correctament.",
+  "error_message_invalid_signature": "El document conté signatures no vàlides. Si voleu signar-lo, accediu al web de Portafirmes.",
+  "error_message_invalid_signature_title": "El document conté signatures no vàlides.",
+  "error_message_invalid_signature_subtitle": "Si el voleu signar, accediu a la web de Portafirmas.",
+  "error_message_doc_signature_faild": "El document que voleu signar presenta problemes que impedeixen realitzar la seva signatura.",
+  "revoke_request_failed": "No s’ha pogut rebutjar la petició. Torna-ho a intentar més tard.",
+  "revoke_requests_failed": "No s’han pogut rebutjar les peticions. Torna-ho a intentar més tard.",
+  "sign_validate_request_failed": "No s’ha pogut signar/donar el vistiplau a la petició. Torna-ho a intentar més tard.",
+  "sign_validate_requests_failed": "No s’han pogut signar/donar el vistiplau a les peticions. Torna-ho a intentar més tard.",
+  "sign_validate_problem": "Hem tingut un problema",
+  "sign_validate_requests_signed_reqs": "{successfulSigns, plural, =0{} =1{S’ha signat correctament {successfulSigns} petició} other{S’han signat correctament {successfulSigns} peticions}} {successfulApprovals, plural, =0{} =1{i s’ha donat el vistiplau a 1 petició} other{i s’ha donat el vistiplau a {successfulApprovals} peticions}}",
+  "@sign_validate_requests_signed_reqs": {
+    "placeholders": {
+      "successfulSigns": {
+        "type": "int",
+        "example": "2"
+      },
+      "successfulApprovals": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "sign_validate_requests_not_signed_reqs": ", però no {failedSigns, plural, =0{} =1{s’ha pogut signar 1 petició} other{s’han pogut signar {failedSigns} peticions}} peticions {failedApprovals, plural, =0{} =1{ni donar el vistiplau a 1 petició} other{ni donar el vistiplau a {failedApprovals} peticions}}. Torna a intentar-ho més tard.",
+  "@sign_validate_requests_not_signed_reqs": {
+    "placeholders": {
+      "failedSigns": {
+        "type": "int",
+        "example": "2"
+      },
+      "failedApprovals": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "validate_requests_failed": "No s’han pogut validar les peticions. Torna-ho a intentar més tard.",
+  "validate_request_failed": "No s’ha pogut validar la petició. Torna-ho a intentar més tard.",
+  "petition_send_tab_subtitle": "Has autoritzat les persones següents perquè signin o donin el vistiplau a les peticions per tu:",
+  "petition_received_tab_subtitle": "Aquestes són les persones que t’han autoritzat perquè signis o donis el vistiplau a les seves peticions.",
+  "petition_send_alert_message": "No has enviat\ncap autorització",
+  "petition_received_alert_message": "No has rebut\ncap autorització",
+  "authorization_details_screen_observation_textbox": "Escriu observacions relacionades amb l’autorització.",
+  "authorization_details_screen_send_subtitle": "Autorització enviada",
+  "authorization_details_screen_received_subtitle": "Autorització rebuda",
+  "petition_information": "Informació de l’autorització",
+  "petition_description_success": "La teva sol·licitud d’autoritzat per a {userNames} s’ha enviat correctament. L’usuari haurà d’acceptar la teva sol·licitud.",
+  "@petition_description_success": {
+    "placeholders": {
+      "userNames": {
+        "type": "String",
+        "example": "Juan Sánchez Pérez"
+      }
+    }
+  },
+  "petition_description_failed": "No s’ha pogut enviar la sol·licitud de nou autoritzat a {userNames}. Torna-ho a intentar de nou passats uns minuts.",
+  "@petition_description_failed": {
+    "placeholders": {
+      "userNames": {
+        "type": "String",
+        "example": "Juan Sánchez Pérez"
+      }
+    }
+  },
+  "something_went_wrong_modal_title": "S’ha produït un error!",
+  "server_internal_error_description": "S’ha produït un error intern al servidor. Espera uns minuts abans de tornar a intentar l’operació.",
+  "empty_pending_request_with_validator_title": "No s’han trobat resultats",
+  "empty_pending_request_with_validator_subtitle": "No s’han trobat peticions validades pendents de signar o donar el vistiplau. Prova-ho canviant els filtres per “veure-les totes”",
+  "empty_pending_request_without_filter_subtitle": "No tens peticions pendents de signar o donar el vistiplau.",
+  "empty_pending_request_normal_title": "No s’han trobat resultats",
+  "empty_pending_request_normal_subtitle": "No s’han trobat peticions pendents amb els filtres aplicats; prova-ho canviant els filtres i realitza una nova cerca.",
+  "empty_signed_request_title": "No tens peticions signades",
+  "empty_rejected_request_title": "No tens peticions rebutjades",
+  "empty_validated_request_title": "No tens peticions validades",
+  "empty_validator_text": "No tens validadors",
+  "empty_signed_rejected_request_with_filters_title": "No s’han trobat resultats amb els filtres aplicats",
+  "request_list_title_expires_today": "Caduquen avui ({count})",
+  "@request_list_title_expires_today": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact",
+        "example": "10"
+      }
+    }
+  },
+  "request_list_title_all": "Totes les peticions ({count})",
+  "@request_list_title_all": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact",
+        "example": "10"
+      }
+    }
+  },
+  "signed_request_list_title": "{count, plural, =0{Cap petició signada} =1{1 petició signada} other{{count} peticions signades}}",
+  "@signed_request_list_title": {
+    "description": "Missatge en plural",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "rejected_request_list_title": "{count, plural, =0{Cap petició rebutjada} =1{1 petició rebutjada} other{{count} peticions rebutjades}}",
+  "@rejected_request_list_title": {
+    "description": "Missatge en plural",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "validated_request_list_title": "{count, plural, =0{Cap petició validada} =1{1 petició validada} other{{count} peticions validades}}",
+  "@validated_request_list_title": {
+    "description": "Missatge en plural",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "request_list_title_found": "{count, plural, =0{Cap petició trobada} =1{1 petició trobada} other{{count} peticions trobades}}",
+  "@request_list_title_found": {
+    "description": "Missatge en plural",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "normal_text": "Normal",
+  "high_text": "Alta",
+  "very_high_text": "Molt alta",
+  "urgent_text": "Urgent",
+  "signed_request_date": "Data de signatura: {date}",
+  "@signed_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "validated_request_date": "Data de validació: {date}",
+  "@validated_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "rejected_request_date": "Data de rebuig: {date}",
+  "@rejected_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "error_getting_request_explain": "No hem pogut carregar les teves peticions.",
+  "error_getting_user_roles_explain": "No hem pogut carregar els teus perfils.",
+  "fall_generic": "CASCADA",
+  "kb": "Kb",
+  "add_certificate_explain_1_title": "Localitza el fitxer",
+  "add_certificate_explain_1_subtitle": "Localitza el fitxer del certificat al mòbil. Tant és que el tinguis instal·lat; aquesta app necessita el fitxer .p12 o .pfx.",
+  "add_certificate_explain_2_title": "Envia al dispositiu",
+  "add_certificate_explain_2_subtitle": "Si no el trobes, envia-te’l al mòbil des d’un altre dispositiu per correu electrònic o per qualsevol altra aplicació al núvol.",
+  "add_certificate_explain_3_title": "Desa el certificat",
+  "add_certificate_explain_3_subtitle": "Un cop el tinguis localitzat al mòbil, no l’executis ni l’instal·lis; desa’l a l’app Fitxers de l’iPhone.",
+  "add_certificate": "Afegir certificat",
+  "choose_identification_method_description": "El mètode d’identificació que triïs serà amb el que accediràs de forma predeterminada. Podràs canviar el mètode d’identificació quan vulguis.",
+  "selection_text": "Selecció",
+  "petition_selection_singular": "{petition} petició seleccionada ",
+  "@petition_selection_singular": {
+    "placeholders": {
+      "petition": {
+        "type": "int",
+        "example": "0"
+      }
+    }
+  },
+  "petition_selection_plural": "{petitions} peticions seleccionades ",
+  "@petition_selection_plural": {
+    "placeholders": {
+      "petitions": {
+        "type": "int",
+        "example": "0"
+      }
+    }
+  },
+  "exit_text": "Sortir",
+  "overlay_migration_error_message": "Hem actualitzat l’aplicació i intentat importar les dades del servidor, però no ha estat possible. Si vols continuar accedint a través d’aquest servidor, cal que el tornis a afegir. ",
+  "overlay_first_time_title": "Nova versió de Portafirmas",
+  "overlay_first_time_message": "La teva aplicació de Portafirmas s’ha actualitzat a la darrera versió, que incorpora millores i canvis importants.",
+  "selected_server": "Servidor seleccionat",
+  "selected_text": "Seleccionat",
+  "enabled_text": "Activat",
+  "disabled_text": "Desactivat",
+  "sign_approve_text": "Signar o donar vistiplau",
+  "press_twice_delete_validator": "Prem dues vegades per eliminar el validador",
+  "press_twice_to_select": "Prem dues vegades per seleccionar",
+  "press_twice_to_open": "Prem dues vegades per obrir",
+  "error_filter_text": "",
+  "select_all_text": "Seleccionar tot",
+  "undo_all_selection_text": "Desfer selecció",
+  "clave_not_valid_expired": "La Cl@ve Permanent ha caducat.",
+  "clave_not_valid_revoked": "La Cl@ve Permanent ha estat revocada.",
+  "clave_sign_in_unknown_user_title": "Error d'inici de sessió",
+  "clave_sign_in_unknown_user_description": "L'usuari no està registrat o és desconegut. Verifiqueu les vostres credencials o poseu-vos en contacte amb l'administrador per obtenir assistència.",
+  "clave_sign_in_expired_description": "Torneu-ho a intentar més tard o proveu l'accés mitjançant certificat electrònic.",
+  "clave_sign_in_revoked_description": "Torneu-ho a intentar més tard o proveu l'accés mitjançant certificat electrònic.",
+  "clave_sign_in_service_validation_error_title": "Alguna cosa ha anat malament!",
+  "clave_sign_in_service_validation_error_description": "S'ha produït un error en iniciar la sessió amb Cl@ve Permanent. Espera uns minuts abans de tornar a intentar l'operació.",
+  "clave_sign_in_generic_error_description": "Ha fallat la identificació a Cl@ve Permanent. Torna-ho a intentar més tard o prova l'accés mitjançant certificat electrònic.",
+  "no_user_exception_title": "Error d'inici de sessió",
+  "no_user_exception_description": "La identificació amb Cl@ve Permanent ha fallat. Torna-ho a intentar més tard o prova d'accedir mitjançant certificat electrònic.",
+  "external_link": "Enllaç extern",
+  "error_signing_document_title": "La petició no s'ha pogut signar.",
+  "error_signing_document_subtitle": "El document original que desitges signar té algun problema amb les seves firmes. Si desitges signar-lo, hauràs de fer-ho a través de la web.",
+  "more_information": "Més informació",
+  "security_alert": "Alerta de seguretat",
+  "security_alert_subtitle": "El teu dispositiu no té un sistema operatiu oficial. Per raons de seguretat, no pots utilitzar aquesta aplicació."
+}

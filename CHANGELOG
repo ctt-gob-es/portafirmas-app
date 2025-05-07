@@ -1,0 +1,35 @@
+# 📜 Changelog - PORTAFIRMAS
+
+All notable changes to the project will be documented here.
+
+---
+## Unreleased
+### 🚀 Added
+- New CHANGELOG file. ([!279](https://gitlab-ic.scae.redsara.es/app-factory/proyectos/portafirmas_app/-/merge_requests/279)) ([PD18813](https://e-3d-dc1.capgemini.com/jira/browse/DC0639-643)).
+
+### 🛠️ Changed
+-
+
+### 🐛 Fixed
+-
+
+### 🔥 Removed
+- 
+---
+## 3.1.6
+### 🚀 Added
+- Add error handling for login with certificate (16234)
+- Add error handling for login with Clave (16234)
+- Add error handling for invalid pdf signature (16234)
+- aAd integration with EMM: App now is able to detect EMM remote configuration a setup initial access server (16647)
+
+### 🛠️ Changed
+-
+
+### 🐛 Fixed
+- 
+
+### 🔥 Removed
+- Firebase migration (16812)
+
+---

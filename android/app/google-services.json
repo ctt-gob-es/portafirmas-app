@@ -1,0 +1,337 @@
+{
+  "project_info": {
+    "project_number": "318567330351",
+    "project_id": "appfactory-93dec",
+    "storage_bucket": "appfactory-93dec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:9c8fb3dd9d0d2f5643ccda",
+        "android_client_info": {
+          "package_name": "es.gob.afirma.android.signfolder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:1edbf749740819ed43ccda",
+        "android_client_info": {
+          "package_name": "es.gob.autentica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:b63301f08119fe2043ccda",
+        "android_client_info": {
+          "package_name": "es.gob.carteraDigitalBeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:02e0df5a87c4420043ccda",
+        "android_client_info": {
+          "package_name": "es.gob.catastro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-g78prcla1tbp521d8561vhnmnjr54pft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "es.gob.catastro",
+            "certificate_hash": "c323d81aaa3fff547d0531b680f60f52a44568b4"
+          }
+        },
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:1f2e417cb85d7e7043ccda",
+        "android_client_info": {
+          "package_name": "es.gob.dehu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:f3758a8f9f119b8f43ccda",
+        "android_client_info": {
+          "package_name": "es.gob.empleopublico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:2029a1bdd1365af343ccda",
+        "android_client_info": {
+          "package_name": "es.gob.funciona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:c2ed53259667affe43ccda",
+        "android_client_info": {
+          "package_name": "es.gob.ica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:324a505e9daacb0e43ccda",
+        "android_client_info": {
+          "package_name": "es.gob.lineaayudas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:0b5e15a8a2ff106b43ccda",
+        "android_client_info": {
+          "package_name": "es.gob.protcivil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318567330351:android:17e13bf927a14d2843ccda",
+        "android_client_info": {
+          "package_name": "es.gob.rapna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbrV6ssn8a3iOBgHiScMtIUxreT2uKRtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318567330351-chah3p8q0t4odkn5mbc2t5h68q3fm34g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

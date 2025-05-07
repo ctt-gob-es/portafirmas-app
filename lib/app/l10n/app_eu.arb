@@ -1,0 +1,673 @@
+{
+  "@@locale": "eu",
+  "app_title": "Portafirmas",
+  "login_subtitle": "sinatu eskaerak erraz",
+  "login_access_btn": "Sartu",
+  "login_help_sheet_title": "Sartu sinaduren arbelean",
+  "login_help_sheet_content_1": "Sinaduren arbelean sartzeko, zure erakundeak erabiltzaile-kontu bat sortu sortu behar ditzu zerbitzarian. Erabiltzaile-kontuarekin webgunetik eta aplikaziotik sartu ahal izango zara Sinaduren arbelean.\nSartzeko, ziurtagiri elektroniko bat gehitu beharko duzu Sinaduren arbela aplikazioan edo sartu Cl@ve Permanente bidez hodeiko ziurtagiria erabiltzeko.\nZalantzaren bat edo arazoren bat izanez gero, jarri harremanetan ",
+  "login_help_sheet_content_2": "zure erakundeko Laguntza-zerbitzuarekin.",
+  "access_button_change_auth": "Aldatu identifikatzeko metodoa",
+  "access_button_server_manage": "Zerbitzarien administrazioa",
+  "general_understood": "Ados",
+  "general_continue": "Jarraitu",
+  "general_try_again": "Saiatu berriro",
+  "general_back": "Atzera",
+  "general_clave": "Cl@ve Permanente",
+  "general_certificate": "Ziurtagiri elektronikoa",
+  "general_dni": "NAN elektronikoa",
+  "general_need_help": "Laguntza behar duzu?",
+  "general_clave_portal": "Cl@ve ataria",
+  "general_call_060": "Deitu 060ra",
+  "general_contact_form": "Harremanetarako inprimakia",
+  "general_pass": "Pasahitza",
+  "general_server": "Zerbitzaria",
+  "general_change": "Aldatu",
+  "general_change_server": "Aldatu zerbitzaria",
+  "general_change_cert": "Aldatu ziurtagiria",
+  "general_register_me": "Erregistratu",
+  "general_select": "Hautatu",
+  "general_add": "Gehitu",
+  "general_modify": "Aldatu",
+  "general_retry": "Saiatu berriro",
+  "general_save": "Gorde",
+  "general_problem_title": "Arazo bat izan da",
+  "error_text": "Errorea",
+  "error_new_version_title": "Bertsio berri bat eskuragarri",
+  "error_new_version_subtitle": "Eguneratzen bat dago Pasahitzen arbelean.",
+  "skip_text": "Saltatu",
+  "error_update_app_title": "Pasahitzen arbelaren derrigorrezko eguneratzea (v.",
+  "error_update_app_subtitle": "Aplikazioa erabiltzen jarraitu ahal izateko, eguneratu egin behar duzu.",
+  "error_update_button": "Eguneratu",
+  "version_text": "Bertsioa v{version}",
+  "@version_text": {
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "2.0.3"
+      }
+    }
+  },
+  "error_login_cert_title": "Errorea saioa hastean",
+  "error_login_cert_subtitle": "Zerbait oker joan da! Ziurtagiriarekin saioa hastean errore bat gertatu da. Itxaron minutu batzuk eta saiatu berriro operazioa.",
+  "server_default_general_title": "EAO zerbitzari orokorra",
+  "server_default_general_subtitle": "Estatuko Administrazio Orokorraren erakundeak.",
+  "server_default_redsara_title": "Gainerako administrazioen zerbitzaria",
+  "server_default_redsara_subtitle": "Zerbitzu honetan alta emandako autonomia-erkidegoak, tokiko erakundeak, unibertsitateak eta beste erakunde batzuk.",
+  "select_server_title": "Zein zerbitzari erabili nahi duzu?",
+  "select_server_subtitle": "Ez badakizu zein zerbitzaritara konektatu behar duzun, jarri harremanetan zure erakundeko Laguntza-zerbitzuarekin. Zure erabiltzaileak alta emanda egon behar du hautatutako zerbitzarian.",
+  "select_server_add_server_title": "Beste zerbitzari bat gehitu nahi duzu?",
+  "select_server_add_server_sub": "Zure erakundeak zerbitzari jakin bat badu, zerbitzari berri bat gehi dezakezu.",
+  "select_server_add_server": "Gehitu zerbitzaria",
+  "add_server_title": "Gehitu zerbitzari berria",
+  "add_server_sub": "Zerbitzari berri bat gehitzeko, ezizen bat eta URL bat esleitu behar dizkiozu.",
+  "add_server_textfield_1_label": "Idatzi ezizen bat",
+  "add_server_textfield_1_hint": "Nire zerbitzaria",
+  "add_server_textfield_2_label": "URLa",
+  "add_server_save_btn": "Gorde zerbitzaria",
+  "add_server_modal_success_title": "Gehitu da zerbitzaria",
+  "add_server_modal_success_sub": "Gehitu da {serverName} zerbitzaria.",
+  "@add_server_modal_success_sub": {
+    "placeholders": {
+      "serverName": {
+        "type": "String",
+        "example": "Nire zerbitzaria"
+      }
+    }
+  },
+  "add_server_modal_error_title": "Errorea zerbitzaria gehitzean",
+  "add_server_modal_error_sub": "Ezin izan dugu {serverName} zerbitzaria gehitu, berrikusi gehitutako URLa edo gehitu berriro.",
+  "@add_server_modal_error_sub": {
+    "placeholders": {
+      "serverName": {
+        "type": "String",
+        "example": "Nire zerbitzaria"
+      }
+    }
+  },
+  "expired_session_modal_header": "Saioa iraungi da",
+  "expired_session_modal_description": "Nire sinaduren arbeleko saioa tarteka iraungi egiten da seguru mantentzeko. Hasi saioa berriro.",
+  "add_server_server_url": "Idatzi zerbitzariaren URLa",
+  "add_server_server_url_format_error": "Ez du balio URLaren formatuak",
+  "choose_id_title": "Aukeratu autentifikazio-metodoa",
+  "choose_id_register": "Erregistratu Cl@ve Permanente-n",
+  "choose_id_overlay_clave_title": "Aukeratu hoberen egokitzen zaizun erregistro modura",
+  "choose_id_overlay_help_sub": "Cl@ve-ri buruzko informazio gehiago behar baduzu nola erabili edo erregistratu jakiteko, bide hauen bidez lor dezakezu.",
+  "choose_id_overlay_videocall": "Bideodeia edo gutuna",
+  "choose_id_overlay_in_person": "Aurrez aurre",
+  "choose_id_overlay_youtube": "Sartu gure Youtube kanalean",
+  "choose_id_overlay_clave_sub": "Cl@ve-ri buruzko informazio gehiago behar baduzu nola erabili edo erregistratu jakiteko, bide hauen bidez lor dezakezu.",
+  "generic_detail": "Xehetasunak",
+  "detail_title": "Istingadiaren lan-agiria",
+  "detail_subtitle": "Nork: ",
+  "generic_more_details": "Xehetasun gehiago",
+  "detail_pendent_sign_title": "Baimendu gisa sinatzeko zain dagoen dokumentua:",
+  "generic_init_date": "Azken eguneratearen data",
+  "generic_expired_date": "Iraungitze-data",
+  "generic_reference": "Erreferentzia",
+  "generic_remarks": "Oharrak",
+  "generic_sign": "Sinadura",
+  "generic_applicant": "Eskatzailea",
+  "generic_approval": "Oniritzia",
+  "generic_application": "Eskaera",
+  "generic_message": "Mezua",
+  "generic_addressee": "Hartzaileak",
+  "generic_annexes": "Eranskinak",
+  "generic_annex": "Eranskina",
+  "addressee_parallel_header": "Sinadura aldi berean",
+  "addressee_parallel_title": "Sinatzaileek zehaztutako ordenarik gabe sinatu edo oniritzi dezakete dokumentua.",
+  "addressee_fall_header": "Sinadura teilakatua",
+  "addressee_fall_title": "Eskatzaileek sinadura-eskaeran zehaztutako ordenan sinatu edo oniritzi behar dute dokumentua. Aurreko sinatzaileak ekintza osatu osatean soilik egin dezake ekintzak sinatzaileak.",
+  "documentos_page_error": "Ezin da aurreikusi fitxategia.",
+  "generic_documents_to_sign": "Sinatzeko dokumentuak",
+  "generic_documents": "Dokumentuak",
+  "generic_button_sign": "Sinatu / Oniritzi",
+  "generic_button_reject": "Baztertu",
+  "generic_button_validate": "Balidatu",
+  "validate_module_title": "Eskaera balioztatzea",
+  "validate_module_petitions_title": "Eskaerak balioztatzea",
+  "validate_module_petitions_subtitle": "{numPetitions} eskaera balioztatzera zoaz.",
+  "@validate_module_petitions_subtitle": {
+    "placeholders": {
+      "numPetitions": {}
+    }
+  },
+  "validate_module_subtitle": "Eskaera balioztatzera zoaz.",
+  "validate_module_title_final_step": "Balioztatu da eskaera",
+  "validate_multiple_module_title_final_step": "Balioztatu dira eskaerak",
+  "validate_module_subtitle_final_step": "Balioztatu duzu eskaera.",
+  "validate_multiple_module_subtitle_final_step": "{petitions} eskaera balioztatu dituzu.",
+  "@validate_multiple_module_subtitle_final_step": {
+    "placeholders": {
+      "petitions": {}
+    }
+  },
+  "sign_validate_title": "Sinatu/Oniritzi eskaerak",
+  "sign_validate_subtitle_simple": "Eskaera sinatzera/oniritzia ematera zoaz\n",
+  "sign_validate_subtitle_sign_reqs": "{signReqs, plural, =0{} =1{1 eskaera sinatzera} other{{signReqs} eskaera sinatzera}}",
+  "@sign_validate_subtitle_sign_reqs": {
+    "placeholders": {
+      "signReqs": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cert_not_valid_expired": "Ziurtagiria iraungi da.",
+  "cert_not_valid_revoked": "Ziurtagiria baliogabetu da.",
+  "cert_not_valid_user_no_permission": "Erabiltzaileak ez dauka baimenik.",
+  "cert_not_valid_description_expired": "Jarri harremanetan sistemaren administratzailearekin sarbidea eskatzeko edo zure kredentzialak egiaztatzeko.",
+  "cert_not_valid_description_revoked": "Jarri harremanetan sistemaren administratzailearekin sarbidea eskatzeko edo zure kredentzialak egiaztatzeko.",
+  "cert_not_valid_description_user_no_permission": "Erabiltzailea ez dago erregistratuta honetan Portafirmaseko sisteman. Egiaztatu zure kredentzialak edo jarri harremanetan administratzailearekin sarbidea eskatzeko.",
+  "y_text": "y",
+  "sign_validate_subtitle_approval_reqs": "{approvalReqs, plural, =0{} =1{1 eskaerari oniritzia ematera} other{{approvalReqs} eskaerari oniritzia ematera zoaz.}}",
+  "@sign_validate_subtitle_approval_reqs": {
+    "placeholders": {
+      "signReqs": {
+        "type": "int",
+        "example": "2"
+      },
+      "approvalReqs": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "generic_message_module_final_step_title": "Sinatu dira eskaerak",
+  "generic_message_module_final_step_title_simple": "Sinatu da / Oniritzia eman zaio eskaerari",
+  "detail_sign_module_final_text_simple": "Sinatu duzu / Eman diozu oniritzia eskaerari.",
+  "detail_sign_module_final_text": "{petitions, plural, =1{1 eskaera} other{{petitions} eskaera}} sinatu dituzu eta {checkPetitions, plural, =1{1 eskaerari} other{{checkPetitions} eskaerari}} oniritzia eman diezu.",
+  "@detail_sign_module_final_text": {
+    "placeholders": {
+      "petitions": {},
+      "checkPetitions": {}
+    }
+  },
+  "sign_validate_cloud_certificate": "hodieko ziurtagiriarekin.",
+  "sign_validate_cert_name": "{certName} ziurtagiriarekin",
+  "@sign_validate_cert_name": {
+    "placeholders": {
+      "certName": {
+        "type": "String",
+        "example": "My cert"
+      }
+    }
+  },
+  "cert_valid_till": "Azken balio-eguna: ",
+  "cert_not_valid": "Ziurtagiriak ez du balio",
+  "cert_not_valid_description": "Ziurtagiriaren balidazioan errore bat gertatu da eta Portafirmaseko saioa hastea ez da lortu. Saiatu berriro beste ziurtagiri batekin.",
+  "cert_use": "Erabilera: ",
+  "cert_emitter": "Jaulkitzailea: ",
+  "servers_title": "Zerbitzariak",
+  "servers_subtitle": "Aplikazioan gordetako zerbitzariak",
+  "servers_text_guide": "Hautatu zerrendan lehenetsi gisa erabili nahi duzun zerbitzaria.",
+  "servers_edit_servers": "Editatu hautatutako zerbitzaria",
+  "servers_notification_edit": "Lehenetsitako zerbitzaria aldatu da",
+  "edit_server_title": "Editatu zerbitzaria",
+  "edit_server_subtitle": "Zein zerbitzari editatu nahi duzu?",
+  "edit_server_delete": "Ezabatu zerbitzaria",
+  "delete_server_text": "Ziur hautatutako zerbitzaria ezabatu nahi duzula? Aurrera eginez gero, hau hautatutako da automatikoki lehenetsi gisa.",
+  "delete_server_notification": "Ezabatu da zerbitzaria",
+  "onboarding_1_title": "Sinatu eskaerak",
+  "onboarding_1_subtitle": "Sartu zain dauden eskaeretan\n eta sinatu edo eman oniritzia.",
+  "onboarding_2_title": "Partekatu dokumentuak",
+  "onboarding_2_subtitle": "Partekatu sinatzeko eskaerekin lotutako\ndokumentuak posta bidez edo nahi duzun\nbidea erabiliz.",
+  "onboarding_3_title": "Kontsultatu eskaeraren\n xehetasunak",
+  "onboarding_3_subtitle": "Sartu sinatzeko dokumentuan, berrikusi\n eranskinak eta lortu sinatzeko \nbehar den informazioa.",
+  "end_msg": "Amaitu",
+  "next_msg": "Hurrengoa",
+  "skip_msg": "Saltatu",
+  "filters_title": "Iragazkiak",
+  "filters_order": "Sailkapena",
+  "filters_select_order": "Hautatu ordena",
+  "filters_select_sort": "Hautatu sailkapena",
+  "filters_select_request_type": "Hautatu eskaera mota",
+  "filters_enter_topic": "Idatzi gaia edo erabiltzailearen izena",
+  "filters_select_time_interval": "Hautatu denbora-tartea",
+  "filters_application": "Hautatu aplikazioa",
+  "filters_clear_filters_button": "Garbitu iragazkiak",
+  "filters_apply_filters_button": "Aplikatu iragazkiak",
+  "filters_more_recent_req": "Azken eskaerak",
+  "filters_oldest_req": "Eskaera zaharrenak",
+  "filters_req_about_to_expire": "Laster iraungiko diren eskaerak",
+  "filters_all_req": "Guztiak",
+  "filters_validated_req": "Balioztatutako eskaerak",
+  "filters_not_validated_req": "Balioztatzeko eskaerak",
+  "filters_sign_req": "Sinatzeko eskaerak",
+  "filters_approval_req": "Oniritzia emateko eskaerak",
+  "filters_last_24h": "Azken 24 orduak",
+  "filters_last_week": "Azken astea",
+  "filters_last_month": "Azken hilabetea",
+  "filters_chip_not_validated": "Balioztatu gabekoak",
+  "pending_tab_text": "Zain daudenak",
+  "rejected_tab_text": "Baztertutakoak",
+  "validated_tab_text": "Balioztatutakoak",
+  "signed_tab_text": "Sinatutakoak",
+  "signature_text": "Sinadura",
+  "approval_text": "Oniritzia",
+  "request_tips_1": "Ikusten ari gara ",
+  "request_tips_2": "balioztatutako eskaerak",
+  "select_profile_title": "Zein profilekin sartu nahi duzu?",
+  "request_notification_title": "Informazioa",
+  "request_notification_message": "Sinatzaile gisa sartuz gero zure eragiketak sina ditzakezu eta, hala badagokio, norbaiten baimendu gisa (ordezkoa edo delegatua) jasotzen dituzunak ere bai. Balioztatzaile gisa sartuz gero, balioztatzaile zaren pertsonarenak direnak balioztatu ahal izango dituzu.",
+  "request_data_card_priority": "Garrantzia",
+  "request_data_card_last_date": "Data",
+  "request_data_card_expiration_date": "Iraungitze-data",
+  "request_data_card_status": "Egoera",
+  "request_data_card_status_rejected": "Baztertua",
+  "request_data_card_status_cancelled": "Bertan behera",
+  "request_data_card_status_revoked": "Atzera botata",
+  "request_data_card_limit_date": "{count, plural, =0{Gaur} =1{1 egun geratzen da} other{{count} egun geratzen dira}}",
+  "@request_data_card_limit_date": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "request_reject_module_title": "Eskaerak baztertzea",
+  "request_reject_module_text_simple": "Eskaera baztertzera zoaz.",
+  "request_reject_module_text": "{rejectedRequests} eskaera baztertzera zoaz.",
+  "@request_reject_module_text": {
+    "placeholders": {
+      "rejectedRequests": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "detail_reject_module_input_label": "Arrazoia (aukerakoa)",
+  "detail_reject_module_input_comment": "Egin iritzi bat",
+  "general_cancel": "Utzi",
+  "reject_module_final_title_plural": "Baztertu dira eskaerak",
+  "reject_module_final_title_simple": "Baztertu da eskaera",
+  "reject_module_simple_subtitle": "Baztertu da eskaera.",
+  "reject_module_plural_subtitle": "Baztertu dira {rejectedRequests} eskaera.",
+  "@reject_module_plural_subtitle": {
+    "placeholders": {
+      "rejectedRequests": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "register_cert_title": "Erregistratu ziurtagiria",
+  "register_cert_btn": "Erregistratu ziurtagiria",
+  "cert_pass_title": "Ziurtagiriaren pasahitza",
+  "cert_pass_subtitle": "Idatzi ziurtagiria instalatzeko pasahitza: {certName}",
+  "@cert_pass_subtitle": {
+    "placeholders": {
+      "certName": {
+        "type": "String",
+        "example": "Nire ziurtagiria"
+      }
+    }
+  },
+  "cert_added_title": "Gehitu da ziurtagiria",
+  "cert_added_subtitle": "Gehitu da ziurtagiria Sinaduren arbela aplikazioan.",
+  "cert_error_adding_title": "Ezin izan da gehitu ziurtagiria",
+  "cert_error_adding_subtitle": "Ezin izan da gehitu ziurtagiria Sinaduren arbela aplikazioan. \nSaiatu berriro geroago.",
+  "certificate_list_title": "Ziurtagiriak",
+  "certificate_list_subtitle": "Aplikazioan gehitutako ziurtagiriak",
+  "certificate_not_found_subtitle": "Ez dago ziurtagiririk eskuragarri",
+  "certificate_error_problems_with_certificates_title": "Hautatzeko arazoak",
+  "certificate_error_problems_with_certificates_subtitle": "Gogoratu aplikazioan sartu nahi baduzu, ziurtagiri hautatu behar duzula edo beste bat gehitu behar duzula. Goiko menuko gehituzeko botoiarekin gehi dezakezu.",
+  "certificate_warning_has_certificates_installed_title": "Instalatutako ziurtagiriak dauzkazu?",
+  "certificate_warning_has_certificates_installed_subtitle": "Ez badaukazu ziurtagiririk instalatuta, goiko menuko gehitu botoiarekin gehi dezakezu. Ziurtagiri bat instalatuta badaukazu jada, Sinaduren arbela erabiliz hauta dezakezu.",
+  "certificate_empty_title": "Ez daukazu instalatutako ziurtagiririk",
+  "certificate_empty_subtitle": "Instalatu beste ziurtagiri bat goiko menuko gehitzeko botoiarekin.",
+  "default_certificate_explain": "Aplikazioan sartzeko, ziurtagiri bat hautatu behar duzu",
+  "certificate_deleted_overlay_success_title": "Ziurtagiria ezabatu da",
+  "certificate_deleted_overlay_success_subtitle": "Ezabatu da {certName} ziurtagiria",
+  "@certificate_deleted_overlay_success_subtitle": {
+    "placeholders": {
+      "certName": {
+        "type": "String"
+      }
+    }
+  },
+  "cert_card_emitter": "Jaulkitzailea: {emitter}",
+  "@cert_card_emitter": {
+    "placeholders": {
+      "emitter": {
+        "type": "String",
+        "example": "FMNT"
+      }
+    }
+  },
+  "cert_card_valid_date": "Azken balio-data: {date}",
+  "@cert_card_valid_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "cert_usage_label": "Erabilera: {usage}",
+  "@cert_usage_label": {
+    "placeholders": {
+      "usage": {
+        "type": "String"
+      }
+    }
+  },
+  "cert_usage_signing": "Sinadura",
+  "cert_usage_authentication": "Autentifikazioa",
+  "cert_usage_encryption": "Zifratuta",
+  "cert_list_delete": "Ezabatu hautatutako ziurtagiria",
+  "generic_informs_sign": "Sinadura-txostenak",
+  "info_sign_module": "Dokumentu hau elektronikoki sinatuta dago. Fitxategiaren aurrebista ikusi ezin den arren, dokumentuak erantsita dauzka dagozkion sinadurak, fitxategia Adobe Acrobat-en irekita egiazta daitekeen moduan.",
+  "info_generic_informs_module": "Dokumentu honek ez dauka lotutako sinadurarik, dokumentu honi lotutako sinaduren informazio-ohar bat da identifikatzeko beharrezko datuekin, egiaztapen-kode seguruarekin (CSV) Administrazioaren Egoitza Elektronikoaren bidez aurkitu ahal izateko. Bertan, sinatutako dokumentua deskargatu ahal izango duzu.",
+  "language_text": "Hizkuntza",
+  "close_text": "Itxi",
+  "user_text": "Erabiltzailea",
+  "result_text": " emaitza",
+  "active_text": "Aktibo",
+  "revoked_text": "Baztertuta",
+  "inactive_text": "Inaktibo",
+  "pending_text": "Zain",
+  "accept_text": "Onartu",
+  "decline_text": "Baztertu",
+  "delegate_user_text": "Delegatua",
+  "substitute_user_text": "Ordezkoa",
+  "signer_user_text": "Sinatzailea",
+  "profile_text": "Profila",
+  "profiles_text": "Profilak",
+  "authorization_text": "Baimenak",
+  "validation_text": "Balioztatzaileak",
+  "petition_send_text": "Bidalitakoak",
+  "petition_received_text": "Jasota",
+  "petition_received_plural_text": "Jasota",
+  "authorization_state_text": "Egoera",
+  "push_notifications_text": "Push abisuak",
+  "support_text": "Laguntza",
+  "help_text": "LAGUNTZA",
+  "questions_text": "Ohiko galderak",
+  "policy_text": "Pribatutasun-politika",
+  "accesibility_text": "Irisgarritasuna",
+  "legal_warning_text": "Lege-oharra",
+  "observation_text": "Oharrak",
+  "logout_text": "Itxi saioa",
+  "date_start_text": "Noiztik",
+  "date_end_text": "Noiz arte",
+  "date_empty_text": "Datarik gabe",
+  "date_starting_date_text": "Hasiera-data",
+  "date_ending_date_text": "Amaiera-data: ",
+  "authorization_type_text": "Baimen mota",
+  "authorization_received_type_text": "Eskaera mota",
+  "authorization_time_text": "Baimenaren iraupena",
+  "authorization_type_user_text": "Baimen mota",
+  "validator_of_user_text": "Honen balioztatzailea: ",
+  "new_validator_text": "Balioztatzaile berria",
+  "error_result_text": "Ez da aurkitu emaitzarik",
+  "error_result_text_tip": "Saiatu beste gako-hitz batekin, bilaketa berriro egiteko,",
+  "new_authorized_text": "Baimendu berria",
+  "textfield_hint_text": "Idatzi izena, IFZ",
+  "add_new_authorized_button": "Gehitu berria",
+  "add_new_validator_button": "Gehitu balioztatzaile berria",
+  "send_petition_button": "Bidali baimena",
+  "cancel_petition_button": "Utzi baimena",
+  "add_validator_success": "Gehitu da balioztatzailea",
+  "request_send_success": "Bidali da eskaera",
+  "request_send_failed": "Arazo bat izan da",
+  "request_send_failed_text": "Ezin izan ditugu kargatu hautatutako eskaeraren xehetasunak.",
+  "request_failed_max_time": "Zerbitzuaren gehieneko itxaron-denbora gainditu da",
+  "settings_screen_configuration_title": "NIRE KONFIGURAZIOA",
+  "settings_screen_information_title": "INFORMAZIO OROKORRA",
+  "settings_screen_validators_menu": "Balioztatzaileen kudeaketa",
+  "settings_screen_authorizations_menu": "Baimenen kudeaketa",
+  "profiles_screen_subtitle": "Hautatu Sinaduren arbelean sartzeko erabili\n nahi duzun profila",
+  "profiles_screen_description": "Sinatzaile gisa sartuz gero zure eskaerak sina ditzakezu eta, hala balegokio, norbaiten baimendu gisa (ordezkoa edo delegatua) jasotzen dituzunak. Balioztatzaile gisa sartzen bazara, balioztatzaile zaren pertsonaren eskaerak sinatu ahal izango dituzu.",
+  "validators_screen_subtitle": "Hauek dira zure eskaeren balioztatzaile gisa baimendu dituzun pertsonak.",
+  "add_new_validator_modal": "{validatorName} gehitu duzu balioztatzaileen zerrendan.",
+  "@add_new_validator_modal": {
+    "placeholders": {
+      "validatorName": {
+        "type": "String",
+        "example": "@name"
+      }
+    }
+  },
+  "add_new_validator_modal_failed": "Ezin izan da gehitu {validatorName} balioztatzaile gisa. Saiatu berriro geroago.",
+  "@add_new_validator_modal_failed": {
+    "placeholders": {
+      "validatorName": {
+        "type": "String",
+        "example": "@name"
+      }
+    }
+  },
+  "error_message_timeExpired_request": "Zerbitzariak ohikoa baino gehiago behar izan du erantzuteko. Mesedez, egiaztatu zure eskaera behar bezala bidali den.",
+  "error_message_timeExpired_requests": "Zerbitzariak ohikoa baino gehiago behar izan du erantzuteko. Mesedez, egiaztatu zure eskaerak behar bezala bidali diren.",
+  "error_message_invalid_signature": "Dokumentuak sinadura baliogabeak ditu. Sinatu nahi baduzu, Portafirmas webgunera jo.",
+  "error_message_invalid_signature_title": "Dokumentuak baliogabeko sinadurak ditu.",
+"error_message_invalid_signature_subtitle": "Sinatu nahi baduzu, sartu Portafirmas webgunera.",
+  "error_message_doc_signature_faild": "Sinatu nahi duzun dokumentuak arazoak ditu eta ezin da sinatu.",
+  "revoke_request_failed": "Ezin izan da baztertu eskaera. Saiatu berriro geroago.",
+  "revoke_requests_failed": "Ezin izan dira baztertu eskaerak. Saiatu berriro geroago.",
+  "sign_validate_request_failed": "Ezin izan da sinatu/oniritzia eman eskaerari. Saiatu berriro geroago.",
+  "sign_validate_requests_failed": "Ezin izan dira sinatu/oniritzia eman eskaerei. Saiatu berriro geroago.",
+  "sign_validate_problem": "Arazoren bat izan da",
+  "sign_validate_requests_signed_reqs": "{successfulSigns, plural, =0{} =1{{successfulSigns} sinadura sinatu da} other{{successfulSigns} sinadura sinatu dira}} {successfulApprovals, plural, =0{} =1{eta oniritzia eman zaio 1 eskaerari} other{eta oniritzia eman zaie {successfulApprovals} eskaerei}}",
+  "@sign_validate_requests_signed_reqs": {
+    "placeholders": {
+      "successfulSigns": {
+        "type": "int",
+        "example": "2"
+      },
+      "successfulApprovals": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "sign_validate_requests_not_signed_reqs": ", baina ezin izan {failedSigns, plural, =0{} =1{da sinatu 1 eskaera} other{ezin izan dira sinatu {failedSigns} eskaera}} {failedApprovals, plural, =0{} =1{ezta oniritzi eman ere 1 eskaerari} other{ezta oniritzia eman ere {failedApprovals} eskaerari}}. Saiatu berriro geroago.",
+  "@sign_validate_requests_not_signed_reqs": {
+    "placeholders": {
+      "failedSigns": {
+        "type": "int",
+        "example": "2"
+      },
+      "failedApprovals": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "validate_requests_failed": "Ezin izan dira balioztatu eskaerak. Saiatu berriro geroago.",
+  "validate_request_failed": "Ezin izan da balioztatu eskaera. Saiatu berriro geroago.",
+  "petition_send_tab_subtitle": "Pertsona hauek baimendu dituzu zure izenean eskaerak sinatzeko edo oniritzia emateko:",
+  "petition_received_tab_subtitle": "Hauek dira eskaerak sinatzeko edo oniritzia emateko baimendu dituzun erabiltzaileak.",
+  "petition_send_alert_message": "Ez duzu bidali\nbaimenik",
+  "petition_received_alert_message": "Ez duzu jaso\nbaimenik",
+  "authorization_details_screen_observation_textbox": "Idatzi baimenarkein erlazionatutako oharrak.",
+  "authorization_details_screen_send_subtitle": "Bidali da baimena",
+  "authorization_details_screen_received_subtitle": "Jaso da baimena",
+  "petition_information": "Baimenaren informazioa",
+  "petition_description_success": "Bidali da {userNames} baimentzeko eskaera. Erabiltzaileak eskaera onartu beharko du.",
+  "@petition_description_success": {
+    "placeholders": {
+      "userNames": {
+        "type": "String",
+        "example": "Jon Etxeberria Lasa"
+      }
+    }
+  },
+  "petition_description_failed": "Ezin izan da bidali {userNames} baimendu berriaren eskaera. Saiatu berriro minutu batzuk barru.",
+  "@petition_description_failed": {
+    "placeholders": {
+      "userNames": {
+        "type": "String",
+        "example": "Jon Etxeberria Lasa"
+      }
+    }
+  },
+  "something_went_wrong_modal_title": "Arazoren bat izan da!",
+  "server_internal_error_description": "Barne-errore bat gertatu da zerbitzarian. Itxaron une bat eragiketa berriro egiten saiatu baino lehen.",
+  "empty_pending_request_with_validator_title": "Ez da aurkitu emaitzarik",
+  "empty_pending_request_with_validator_subtitle": "Ez da aurkitu sinatzeko edo oniritzia emateko zain dauden balioztatzeko eskaerarik. Saiatu iragazkia ”ikusi guztiak” ezarrita",
+  "empty_pending_request_without_filter_subtitle": "Ez daukazu sinatzeko edo oniritzia emateko zain dagoen eskaerarik.",
+  "empty_pending_request_normal_title": "Ez da aurktiu emaitzarik",
+  "empty_pending_request_normal_subtitle": "Ez da aurkitu aplikatutako iragazkiekin bat datorren zain dagoen eskaerarik. Saiatu iragazkiak aldatzen beste bilaketa bat erabiltzeko.",
+  "empty_signed_request_title": "Ez daukazu sinatutako eskaerarik",
+  "empty_rejected_request_title": "Ez daukazu baztertutako eskaerarik",
+  "empty_validated_request_title": "Ez daukazu balioztatutako eskaerarik",
+  "empty_validator_text": "Ez daukazu balioztatzailerik",
+  "empty_signed_rejected_request_with_filters_title": "Ez da aurktiu emaitzarik aplkatutako iragazkiekin",
+  "request_list_title_expires_today": "Gaur iraungitzen dira ({count})",
+  "@request_list_title_expires_today": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact",
+        "example": "10"
+      }
+    }
+  },
+  "request_list_title_all": "Eskaera guztiak  ({count})",
+  "@request_list_title_all": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact",
+        "example": "10"
+      }
+    }
+  },
+  "signed_request_list_title": "{count, plural, =0{Ez dago sinatutako eskaerarik} =1{Sinatutako 1 eskaera} other{Sinatutako {count} eskaera}}",
+  "@signed_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "rejected_request_list_title": "{count, plural, =0{Ez dago baztertutako eskaera} =1{Baztertutako 1 eskaera} other{Baztertutako {count} eskaera}}",
+  "@rejected_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "validated_request_list_title": "{count, plural, =0{Ez dago balioztatutako eskaerarik} =1{Balioztatutako 1 eskaera} other{Balioztatutako {count} eskaera}}",
+  "@validated_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "request_list_title_found": "{count, plural, =0{Ez da aurkitu eskaerarik} =1{1 eskaera aurkitu da} other{{count} eskaera aurkitu dira}}",
+  "@request_list_title_found": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "normal_text": "Normala",
+  "high_text": "Handia",
+  "very_high_text": "Oso handia",
+  "urgent_text": "Presazkoa",
+  "signed_request_date": "Sinaduraren data: {date}",
+  "@signed_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "validated_request_date": "Balioztatze-data: {date}",
+  "@validated_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "rejected_request_date": "Baztertze-data: {date}",
+  "@rejected_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "error_getting_request_explain": "Ezin izan dugu kargatu eskaerarik.",
+  "error_getting_user_roles_explain": "Ezin izan dira kargatu zure profilak.",
+  "fall_generic": "TEILAKATUA",
+  "kb": "Kb",
+  "add_certificate_explain_1_title": "Aurkitu fitxategia",
+  "add_certificate_explain_1_subtitle": "Aurkitu ziurtagiriaren fitxategia mugikorrean. Berdin du instalatuta daukazun, aplikazio honek .p12 edo .pfx fitxategia behar du.",
+  "add_certificate_explain_2_title": "Bidali gailura",
+  "add_certificate_explain_2_subtitle": "Aurkitzen ez baduzu, bidali zure mugikorrera beste gailu batea posta elektroniko bidez edo hodeiko beste aplikazio batzuen bidez.",
+  "add_certificate_explain_3_title": "Gorde ziurtagiria",
+  "add_certificate_explain_3_subtitle": "Mugikorrean aurkituta daukazunean, ez exekutatu edo instalatu, gorde iPhone-ko Fitxategiak aplikazioan.",
+  "add_certificate": "Gehitu ziurtagiria",
+  "choose_identification_method_description": "Aukeratzen duzun identifikazio-metodoa izango da sartzeko metodo lehenetsia. Nahi duzunean alda dezakezu identifikazio-metodoa.",
+  "selection_text": "Hautapena",
+  "petition_selection_singular": "{petition} eskaera hautatu da ",
+  "@petition_selection_singular": {
+    "placeholders": {
+      "petition": {
+        "type": "int",
+        "example": "0"
+      }
+    }
+  },
+  "petition_selection_plural": "{petitions} eskaera hautatu dira ",
+  "@petition_selection_plural": {
+    "placeholders": {
+      "petitions": {
+        "type": "int",
+        "example": "0"
+      }
+    }
+  },
+  "exit_text": "Irten",
+  "overlay_migration_error_message": "Aplikazioa eguneratu dugu eta datuak zerbitzarira inportatzen saiatu gara, baina ezin izan ditugu inportatu. Zerbitzari horren bidez sartzen jarraitu nahi baduzu, berriro gehitu behar duzu. ",
+  "overlay_first_time_title": "Sinaduren arbelaren bertsio berria",
+  "overlay_first_time_message": "Sinaduren artelaren aplikazioa azken bertsiora eguneratu da, eta hobekuntza berriak eta aldaketa garrantzitsuak egin dira.",
+  "selected_server": "Hautatutako zerbitzaria",
+  "selected_text": "Hautatuta",
+  "enabled_text": "Aktibatuta",
+  "disabled_text": "Desaktibatuta",
+  "sign_approve_text": "Sinatu edo eman oniritzia",
+  "press_twice_delete_validator": "Sakatu bi aldiz balioztatzailea ezabatzeko",
+  "press_twice_to_select": "Sakatu bi aldiz hautatzeko",
+  "press_twice_to_open": "Sakatu bi aldiz irekitzeko",
+  "error_filter_text": "",
+  "select_all_text": "Dena hautatu",
+  "undo_all_selection_text": "Desegin hautaketa",
+  "clave_not_valid_expired": "Cl@ve Permanentearen iraungitze epea bukatu da.",
+  "clave_not_valid_revoked": "Cl@ve Permanente bertan behera utzi da.",
+  "clave_sign_in_unknown_user_title": "Saio-hasierako errorea",
+  "clave_sign_in_unknown_user_description": "Erabiltzailea ez dago erregistratuta edo ezezaguna da. Egiaztatu zure kredentzialak edo jarri harremanetan administratzailearekin laguntza jasotzeko.",
+  "clave_sign_in_expired_description": "Saiatu berriro beranduago edo saiatu sarbidea ziurtagiri elektronikoaren bidez.",
+  "clave_sign_in_revoked_description": "Saiatu berriro beranduago edo saiatu sarbidea ziurtagiri elektronikoaren bidez.",
+  "clave_sign_in_service_validation_error_title": "Zerbait gaizki atera da!",
+  "clave_sign_in_service_validation_error_description": "Errore bat gertatu da Cl@ve Permanent erabiliz saioa hastean. Itxaron minutu batzuk berriro saiatu aurretik.",
+  "clave_sign_in_generic_error_description": "Cl@ve Permamentearen identifikazioa huts egin du. Saiatu berriro geroago edo saiatu sarbidea ziurtagiri elektronikoaren bidez.",
+  "no_user_exception_title": "Saio-hasierako errorea",
+  "no_user_exception_description": "Cl@ve Permanent bidezko identifikazioa huts egin du. Saiatu berriro geroago edo saiatu sarbidea ziurtagiri elektroniko baten bidez.",
+  "external_link": "kanpoko esteka",
+  "error_signing_document_title": "Eskaera ezin izan da sinatu.",
+  "error_signing_document_subtitle": "Sinatu nahi duzun jatorrizko dokumentuak sinadurekin arazo batzuk ditu. Sinatu nahi baduzu, web bidez egin beharko duzu.",
+  "more_information": "Informazio gehiago",
+  "security_alert" : "Segurtasun alerta",
+  "security_alert_subtitle" : "Zure gailuak ez du sistema eragile ofizialik. Segurtasun arrazoiengatik, ezin duzu aplikazio hau erabili."
+}

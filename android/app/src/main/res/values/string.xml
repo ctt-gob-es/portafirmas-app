@@ -1,0 +1,5 @@
+<resources>
+    <string name="proxyUrl">url</string>
+    <string name="proxyAlias">alias</string>
+    <string name="isFixed">fijo</string>
+</resources>

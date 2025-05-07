@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="currentToken">token</string>
+    <string name="URL_PROXY">https://test</string>
+    <string name="alias">test</string>
+    <string name="keystore">local</string>
+    <string name="servertestalias">https://test</string>
+    <boolean name="firstExecution" value="false" />
+</map>

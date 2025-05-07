@@ -1,0 +1,5 @@
+include:
+  - project: "app-factory/ci/templates"
+    ref: main  
+    file: "/flutter-generate.yml"
+    

@@ -1,0 +1,674 @@
+
+{
+  "@@locale": "en",
+  "app_title": "Portafirmas",
+  "login_subtitle": "Sign requests easily",
+  "login_access_btn": "Login",
+  "login_help_sheet_title": "Login to Portafirmas",
+  "login_help_sheet_content_1": "Accessing Portafirmas requires your organisation to create a user account on your server. Users can access Portafirmas from both the website and the app.\nTo enter, please add an electronic certificate to the Portafirmas app or access Cl@ve Permanente to use your certificate on the cloud.\nFor any questions or concerns you may have, please contact ",
+  "login_help_sheet_content_2": "your organisation’s Support Service.",
+  "access_button_change_auth": "Change identification method",
+  "access_button_server_manage": "Server management",
+  "general_understood": "Got it",
+  "general_continue": "Continue",
+  "general_try_again": "Try again",
+  "general_back": "Back",
+  "general_clave": "Cl@ve Permanente",
+  "general_certificate": "Electronic certificate",
+  "general_dni": "Electronic DNI",
+  "general_need_help": "Need help?",
+  "general_clave_portal": "Cl@ve portal",
+  "general_call_060": "Call 060",
+  "general_contact_form": "Contact form",
+  "general_pass": "Password",
+  "general_server": "Server",
+  "general_change": "Change",
+  "general_change_server": "Change server",
+  "general_change_cert": "Change certificate",
+  "general_register_me": "Register me",
+  "general_select": "Select",
+  "general_add": "Add",
+  "general_modify": "Edit",
+  "general_retry": "Try again",
+  "general_save": "Save",
+  "general_problem_title": "An error occurred",
+  "error_text": "Error",
+  "error_new_version_title": "New version available",
+  "error_new_version_subtitle": "A new Portafirmas update is available.",
+  "skip_text": "Skip",
+  "error_update_app_title": "Mandatory Portafirmas v. update",
+  "error_update_app_subtitle": "Please install update to continue using the application.",
+  "error_update_button": "Update",
+  "version_text": "Version v{version}",
+  "@version_text": {
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "2.0.3"
+      }
+    }
+  },
+  "error_login_cert_title": "Login error",
+  "error_login_cert_subtitle": "Something went wrong! An error occurred while logging in with the certificate. Please wait a few minutes before retrying the operation.",
+  "server_default_general_title": "General GSA server",
+  "server_default_general_subtitle": "General State Administration organisations.",
+  "server_default_redsara_title": "Other administration server",
+  "server_default_redsara_subtitle": "Autonomous Communities, local entities, universities other bodies registered for this service.",
+  "select_server_title": "Which server would you like to use?",
+  "select_server_subtitle": "If you’re unsure which server to use, please contact your organisation’s Support Service. Users must register previously on the selected server.",
+  "select_server_add_server_title": "Would you like to add another server?",
+  "select_server_add_server_sub": "If your organisation uses a specific server, you may add a new server.",
+  "select_server_add_server": "Add server",
+  "add_server_title": "Add new server",
+  "add_server_sub": "Adding a server requires assigning it a new name and a URL.",
+  "add_server_textfield_1_label": "Enter new name",
+  "add_server_textfield_1_hint": "My server",
+  "add_server_textfield_2_label": "URL",
+  "add_server_save_btn": "Save server",
+  "add_server_modal_success_title": "Add server",
+  "add_server_modal_success_sub": "{serverName} server added successfully.",
+  "@add_server_modal_success_sub": {
+    "placeholders": {
+      "serverName": {
+        "type": "String",
+        "example": "My server"
+      }
+    }
+  },
+  "add_server_modal_error_title": "An error occurred when adding the server",
+  "add_server_modal_error_sub": "Failure to add {serverName} server successfully. Please check the URL and enter it again.",
+  "@add_server_modal_error_sub": {
+    "placeholders": {
+      "serverName": {
+        "type": "String",
+        "example": "My server"
+      }
+    }
+  },
+  "expired_session_modal_header": "Your session has expired",
+  "expired_session_modal_description": "My Portafirmas sessions expire periodically for security purposes. Please login again.",
+  "add_server_server_url": "Enter server URL",
+  "add_server_server_url_format_error": "Invalid URL format",
+  "choose_id_title": "Select identification method",
+  "choose_id_register": "Register for Cl@ve Permanente",
+  "choose_id_overlay_clave_title": "Select your preferred registration method",
+  "choose_id_overlay_help_sub": "Additional information about how to register and use Cl@ve is available through:",
+  "choose_id_overlay_videocall": "Video call or message",
+  "choose_id_overlay_in_person": "In person",
+  "choose_id_overlay_youtube": "Our YouTube channel",
+  "choose_id_overlay_clave_sub": "Additional information about how to register and use Cl@ve is available through:",
+  "generic_detail": "Detail",
+  "detail_title": "Marshland worksheet",
+  "detail_subtitle": "From: ",
+  "generic_more_details": "More details",
+  "detail_pendent_sign_title": "Request pending authorisation signature from:",
+  "generic_init_date": "Date of last update",
+  "generic_expired_date": "Expiry date",
+  "generic_reference": "Reference",
+  "generic_remarks": "Observations",
+  "generic_sign": "Signature",
+  "generic_applicant": "Applicant",
+  "generic_approval": "Approval",
+  "generic_application": "Application",
+  "generic_message": "Message",
+  "generic_addressee": "Recipients",
+  "generic_annexes": "Appendices",
+  "generic_annex": "Appendices",
+  "addressee_parallel_header": "Parallel signature",
+  "addressee_parallel_title": "Signatories can sign or approve the request in any order.",
+  "addressee_fall_header": "Cascading signature",
+  "addressee_fall_title": "Signatories must sign or approve in the order established by the applicant in the signature request. Signatories may only sign once the action is completed by the predecessor.",
+  "documentos_page_error": "Unable to preview this file.",
+  "generic_documents_to_sign": "Documents to sign",
+  "generic_documents": "Documents",
+  "generic_button_sign": "Sign/Approve",
+  "generic_button_reject": "Reject",
+  "generic_button_validate": "Validate",
+  "validate_module_title": "Request validation",
+  "validate_module_petitions_title": "Request validations",
+  "validate_module_petitions_subtitle": "Validate {numPetitions} requests.",
+  "@validate_module_petitions_subtitle": {
+    "placeholders": {
+      "numPetitions": {}
+    }
+  },
+  "validate_module_subtitle": "Validate the request.",
+  "validate_module_title_final_step": "Request successfully validated",
+  "validate_multiple_module_title_final_step": "Requests successfully validated",
+  "validate_module_subtitle_final_step": "You successfully validated the request.",
+  "validate_multiple_module_subtitle_final_step": "You successfully validated {petitions} requests.",
+  "@validate_multiple_module_subtitle_final_step": {
+    "placeholders": {
+      "petitions": {}
+    }
+  },
+  "sign_validate_title": "Sign/approve requests",
+  "sign_validate_subtitle_simple": "Sign/approve request\n",
+  "sign_validate_subtitle_sign_reqs": "{signReqs, plural, =0{} =1{Sign 1 request} other{Sign {signReqs} requests}}",
+  "@sign_validate_subtitle_sign_reqs": {
+    "placeholders": {
+      "signReqs": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "cert_not_valid_expired": "The certificate has expired.",
+  "cert_not_valid_revoked": "The certificate has been revoked.",
+  "cert_not_valid_user_no_permission": "The user does not have permissions.",
+  "cert_not_valid_description_expired": "Please contact the system administrator to request access or verify your credentials.",
+  "cert_not_valid_description_revoked": "Please contact the system administrator to request access or verify your credentials.",
+  "cert_not_valid_description_user_no_permission": "The user does not have an account in this signature platform. Please verify your credentials or contact the administrator to request access.",
+  "y_text": "and",
+  "sign_validate_subtitle_approval_reqs": "{approvalReqs, plural, =0{} =1{approve 1 request} other{approve {approvalReqs} requests.}}",
+  "@sign_validate_subtitle_approval_reqs": {
+    "placeholders": {
+      "signReqs": {
+        "type": "int",
+        "example": "2"
+      },
+      "approvalReqs": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "generic_message_module_final_step_title": "Requests signed successfully",
+  "generic_message_module_final_step_title_simple": "Request signed/approved successfully",
+  "detail_sign_module_final_text_simple": "You signed/approved the request successfully.",
+  "detail_sign_module_final_text": "You signed {petitions, plural, =1{1 request} other{{petitions} requests}} and approved {checkPetitions, plural, =1{1 request} other{{checkPetitions} requests}}.",
+  "@detail_sign_module_final_text": {
+    "placeholders": {
+      "petitions": {},
+      "checkPetitions": {}
+    }
+  },
+  "sign_validate_cloud_certificate": "with the certificate in the cloud.",
+  "sign_validate_cert_name": "with the {certName} certificate",
+  "@sign_validate_cert_name": {
+    "placeholders": {
+      "certName": {
+        "type": "String",
+        "example": "My cert"
+      }
+    }
+  },
+  "cert_valid_till": "Valid until: ",
+  "cert_not_valid": "Invalid certificate",
+  "cert_not_valid_description": "A certificate validation error has occurred and login to the Signature Platform could not be completed. Please try again with another certificate.",
+  "cert_use": "Use: ",
+  "cert_emitter": "Issuer: ",
+  "servers_title": "Servers",
+  "servers_subtitle": "Servers saved in the app",
+  "servers_text_guide": "Choose your preferred default server from the server list.",
+  "servers_edit_servers": "Edit selected server",
+  "servers_notification_edit": "Default server changed",
+  "edit_server_title": "Edit server",
+  "edit_server_subtitle": "Which server would you like to edit?",
+  "edit_server_delete": "Delete server",
+  "delete_server_text": "Are you sure you want to delete the selected server? If you continue, the next server on the list will automatically become the default.",
+  "delete_server_notification": "Server deleted",
+  "onboarding_1_title": "Sign requests",
+  "onboarding_1_subtitle": "Access pending requests\n for signature or approval.",
+  "onboarding_2_title": "Share documents",
+  "onboarding_2_subtitle": "Share documents associated with\nsignature requests by email or whichever\nmethod you prefer.",
+  "onboarding_3_title": "Check the details\n of the request",
+  "onboarding_3_subtitle": "Access signature document, review\n appendices and obtain the information \necessary to sign.",
+  "end_msg": "Close",
+  "next_msg": "Next",
+  "skip_msg": "Skip",
+  "filters_title": "Filters",
+  "filters_order": "Sort",
+  "filters_select_order": "Select order",
+  "filters_select_sort": "Select sort",
+  "filters_select_request_type": "Select request type",
+  "filters_enter_topic": "Enter topic or username",
+  "filters_select_time_interval": "Select time interval",
+  "filters_application": "Select application",
+  "filters_clear_filters_button": "Clear filters",
+  "filters_apply_filters_button": "Apply filters",
+  "filters_more_recent_req": "Most recent requests",
+  "filters_oldest_req": "Oldest requests",
+  "filters_req_about_to_expire": "Requests about to expire",
+  "filters_all_req": "All",
+  "filters_validated_req": "Validated requests",
+  "filters_not_validated_req": "Requests not validated",
+  "filters_sign_req": "Signature requests",
+  "filters_approval_req": "Approval requests",
+  "filters_last_24h": "Last 24 hours",
+  "filters_last_week": "Last week",
+  "filters_last_month": "Last month",
+  "filters_chip_not_validated": "Not validated",
+  "pending_tab_text": "Pending",
+  "rejected_tab_text": "Rejected",
+  "validated_tab_text": "Validated",
+  "signed_tab_text": "Signed",
+  "signature_text": "Signature",
+  "approval_text": "Approval",
+  "request_tips_1": "View",
+  "request_tips_2": "validated requests",
+  "select_profile_title": "Access using which profile?",
+  "request_notification_title": "Information",
+  "request_notification_message": "By logging on as a signatory, you may sign your requests and, if applicable, those received as authorised (substitute or delegate) from someone else. If you logon as a validator, you may validate requests from the person for whom you are the validator.",
+  "request_data_card_priority": "Priority",
+  "request_data_card_last_date": "Date",
+  "request_data_card_expiration_date": "Expiry",
+  "request_data_card_status": "Status",
+  "request_data_card_status_rejected": "Rejected",
+  "request_data_card_status_cancelled": "Cancelled",
+  "request_data_card_status_revoked": "Revoked",
+  "request_data_card_limit_date": "{count, plural, =0{Hoy} =1{1 day remaining} other{{count} days remaining}}",
+  "@request_data_card_limit_date": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "request_reject_module_title": "Reject requests",
+  "request_reject_module_text_simple": "Reject the request.",
+  "request_reject_module_text": "Reject {rejectedRequests} requests.",
+  "@request_reject_module_text": {
+    "placeholders": {
+      "rejectedRequests": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "detail_reject_module_input_label": "Reason (optional)",
+  "detail_reject_module_input_comment": "Add a comment",
+  "general_cancel": "Cancel",
+  "reject_module_final_title_plural": "Requests successfully rejected",
+  "reject_module_final_title_simple": "Request successfully rejected",
+  "reject_module_simple_subtitle": "You successfully rejected the request.",
+  "reject_module_plural_subtitle": "{rejectedRequests} requests rejected.",
+  "@reject_module_plural_subtitle": {
+    "placeholders": {
+      "rejectedRequests": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "register_cert_title": "Register your certificate",
+  "register_cert_btn": "Register certificate",
+  "cert_pass_title": "Certificate password",
+  "cert_pass_subtitle": "Enter password to install certificate: {certName}",
+  "@cert_pass_subtitle": {
+    "placeholders": {
+      "certName": {
+        "type": "String",
+        "example": "My certificate"
+      }
+    }
+  },
+  "cert_added_title": "Certificate added",
+  "cert_added_subtitle": "Certificate successfully added to the Portafirmas app.",
+  "cert_error_adding_title": "Unable to add certificate",
+  "cert_error_adding_subtitle": "Unable to successfully add your certificate to the Portafirmas application. \nPlease try again later.",
+  "certificate_list_title": "Certificates",
+  "certificate_list_subtitle": "Certificates added to the app",
+  "certificate_not_found_subtitle": "Certificate not found",
+  "certificate_error_problems_with_certificates_title": "Selection error",
+  "certificate_error_problems_with_certificates_subtitle": "To access the app, please select a certificate or add a new one by clicking the add button from the menu above.",
+  "certificate_warning_has_certificates_installed_title": "Do you have certificates installed?",
+  "certificate_warning_has_certificates_installed_subtitle": "If you have no certificates installed, you may add one by clicking the add button from the menu above. If your certificate is already installed, please select it to access Portafirmas.",
+  "certificate_empty_title": "No certificates installed",
+  "certificate_empty_subtitle": "Install a new certificate using the add button from the menu above.",
+  "default_certificate_explain": "Please select a certificate to access the application",
+  "certificate_deleted_overlay_success_title": "Certificate deleted",
+  "certificate_deleted_overlay_success_subtitle": "{certName} certificate has been deleted",
+  "@certificate_deleted_overlay_success_subtitle": {
+    "placeholders": {
+      "certName": {
+        "type": "String"
+      }
+    }
+  },
+  "cert_card_emitter": "Issuer: {emitter}",
+  "@cert_card_emitter": {
+    "placeholders": {
+      "emitter": {
+        "type": "String",
+        "example": "FMNT"
+      }
+    }
+  },
+  "cert_card_valid_date": "Valid until: {date}",
+  "@cert_card_valid_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "andMd"
+      }
+    }
+  },
+  "cert_usage_label": "Usage: {usage}",
+  "@cert_usage_label": {
+    "placeholders": {
+      "usage": {
+        "type": "String"
+      }
+    }
+  },
+  "cert_usage_signing": "Signature",
+  "cert_usage_authentication": "Authentication",
+  "cert_usage_encryption": "Encrypted",
+  "cert_list_delete": "Delete selected certificate",
+  "generic_informs_sign": "Signature reports",
+  "info_sign_module": "This document is signed electronically. Though a file preview is unavailable, the document includes the associated signatures, which can be verified by opening the file in Adobe Acrobat.",
+  "info_generic_informs_module": "This document does not include the associated signatures. It is verification of the signatures that correspond to the document, with the data necessary to identify it and the secure verification code (SVC) needed to locate it at the Administration’s Electronic Office, where you can download the signed document.",
+  "language_text": "Language",
+  "close_text": "Close",
+  "user_text": "User",
+  "result_text": " results",
+  "active_text": "Active",
+  "revoked_text": "Rejected",
+  "inactive_text": "Inactive",
+  "pending_text": "Pending",
+  "accept_text": "Accept",
+  "decline_text": "Reject",
+  "delegate_user_text": "Delegate",
+  "substitute_user_text": "Substitute",
+  "signer_user_text": "Signatory",
+  "profile_text": "Profile",
+  "profiles_text": "Profiles",
+  "authorization_text": "Authorisations",
+  "validation_text": "Validators",
+  "petition_send_text": "Sent",
+  "petition_received_text": "Received",
+  "petition_received_plural_text": "Received",
+  "authorization_state_text": "Status",
+  "push_notifications_text": "Push notifications",
+  "support_text": "Support",
+  "help_text": "HELP",
+  "questions_text": "FAQs",
+  "policy_text": "Privacy Policy",
+  "accesibility_text": "Accessibility",
+  "legal_warning_text": "Legal disclaimer",
+  "observation_text": "Observations",
+  "logout_text": "Logout",
+  "date_start_text": "From",
+  "date_end_text": "Until",
+  "date_empty_text": "No date",
+  "date_starting_date_text": "Start date",
+  "date_ending_date_text": "End date: ",
+  "authorization_type_text": "Authorisation type",
+  "authorization_received_type_text": "Request type",
+  "authorization_time_text": "Authorisation time",
+  "authorization_type_user_text": "Authorisation type",
+  "validator_of_user_text": "Validator of",
+  "new_validator_text": "New validator",
+  "error_result_text": "No results found",
+  "error_result_text_tip": "Enter another keyword and search again,",
+  "new_authorized_text": "New authorisation",
+  "textfield_hint_text": "Enter name, tax ID number",
+  "add_new_authorized_button": "Add new",
+  "add_new_validator_button": "Add new validator",
+  "send_petition_button": "Send authorisation",
+  "cancel_petition_button": "Cancel authorisation",
+  "add_validator_success": "Validator added successfully",
+  "request_send_success": "Request sent successfully",
+  "request_send_failed": "An error occurred",
+  "request_send_failed_text": "Unable to load details of the selected request.",
+  "request_failed_max_time": "Maximum wait time exceeded",
+  "settings_screen_configuration_title": "MY SETTINGS",
+  "settings_screen_information_title": "GENERAL INFORMATION",
+  "settings_screen_validators_menu": "Validation Management",
+  "settings_screen_authorizations_menu": "Authorisation Management",
+  "profiles_screen_subtitle": "Select a profile with which to\n access Portafirmas",
+  "profiles_screen_description": "By logging on as a signatory, you may sign your requests and, if applicable, those received as authorised (substitute or delegate) from someone else. If you logon as a validator, you may validate requests from the person for whom you are the validator.",
+  "validators_screen_subtitle": "These people are authorised to validate your requests.",
+  "add_new_validator_modal": "You have added {validatorName} to your list of validators.",
+  "@add_new_validator_modal": {
+    "placeholders": {
+      "validatorName": {
+        "type": "String",
+        "example": "@name"
+      }
+    }
+  },
+  "add_new_validator_modal_failed": "Unable to add {validatorName} as a validator. Please try again later.",
+  "@add_new_validator_modal_failed": {
+    "placeholders": {
+      "validatorName": {
+        "type": "String",
+        "example": "@name"
+      }
+    }
+  },
+  "error_message_timeExpired_request": "The server has taken longer than usual to respond. Please check if your request has been processed correctly.",
+  "error_message_timeExpired_requests": "The server has taken longer than usual to respond. Please check if your requests have been processed correctly.",
+  "error_message_invalid_signature": "The document contains invalid signatures. If you want to sign it, please access the Portafirmas website.",
+  "error_message_invalid_signature_title": "The document contains invalid signatures.",
+  "error_message_invalid_signature_subtitle": "If you want to sign it, access the Portafirmas website.",
+  "error_message_doc_signature_faild": "The document you want to sign has issues that prevent it from being signed.",
+  "revoke_request_failed": "Unable to reject request. Please try again later.",
+  "revoke_requests_failed": "Unable to reject requests. Please try again later.",
+  "sign_validate_request_failed": "Unable to sign/approve request. Please try again later.",
+  "sign_validate_requests_failed": "Unable to sign/approve requests. Please try again later.",
+  "sign_validate_problem": "An error occurred",
+  "sign_validate_requests_signed_reqs": "{successfulSigns, plural, =0{} =1{{successfulSigns} request signed successfully} other{{successfulSigns} requests signed successfully}} {successfulApprovals, plural, =0{} =1{and 1 request approved} other{and {successfulApprovals} requests approved}}",
+  "@sign_validate_requests_signed_reqs": {
+    "placeholders": {
+      "successfulSigns": {
+        "type": "int",
+        "example": "2"
+      },
+      "successfulApprovals": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "sign_validate_requests_not_signed_reqs": ", but unable {failedSigns, plural, =0{} =1{to sign 1 request} other{unable to sign {failedSigns} requests}} requests {failedApprovals, plural, =0{} =1{or approve 1 request} other{or approve {failedApprovals} requests}}. Please try again later.",
+  "@sign_validate_requests_not_signed_reqs": {
+    "placeholders": {
+      "failedSigns": {
+        "type": "int",
+        "example": "2"
+      },
+      "failedApprovals": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "validate_requests_failed": "Unable to validate requests. Please try again later.",
+  "validate_request_failed": "Request could not be validated. Please try again later.",
+  "petition_send_tab_subtitle": "The following people are authorised to sign or approve requests on your behalf:",
+  "petition_received_tab_subtitle": "You are authorised to sign or approve requests on behalf of these people.",
+  "petition_send_alert_message": "You have sent\nno authorisation",
+  "petition_received_alert_message": "You have received\nno authorisation",
+  "authorization_details_screen_observation_textbox": "Add comments concerning  authorisation.",
+  "authorization_details_screen_send_subtitle": "Authorisation sent",
+  "authorization_details_screen_received_subtitle": "Authorisation received",
+  "petition_information": "Authorisation information",
+  "petition_description_success": "Your authorisation request for {userNames} was sent successfully. The user must accept your request.",
+  "@petition_description_success": {
+    "placeholders": {
+      "userNames": {
+        "type": "String",
+        "example": "Juan Sánchez Pérez"
+      }
+    }
+  },
+  "petition_description_failed": "Unable to re-send the request authorised for {userNames} Please try again later.",
+  "@petition_description_failed": {
+    "placeholders": {
+      "userNames": {
+        "type": "String",
+        "example": "Juan Sánchez Pérez"
+      }
+    }
+  },
+  "something_went_wrong_modal_title": "Something went wrong!",
+  "server_internal_error_description": "An internal server error occurred. Please wait a few minutes before trying the operation again.",
+  "empty_pending_request_with_validator_title": "No results found",
+  "empty_pending_request_with_validator_subtitle": "No validated requests pending signature or approval found. Try adjusting your filters to “See all”",
+  "empty_pending_request_without_filter_subtitle": "You have no requests pending signature or approval.",
+  "empty_pending_request_normal_title": "No results found",
+  "empty_pending_request_normal_subtitle": "No pending requests have been found based on the applied filters. Try modifying the filter criteria and perform a new search.",
+  "empty_signed_request_title": "No signed requests",
+  "empty_rejected_request_title": "No rejected requests",
+  "empty_validated_request_title": "No validated requests",
+  "empty_validator_text": "You have no validators",
+  "empty_signed_rejected_request_with_filters_title": "No results found based on the applied filters",
+  "request_list_title_expires_today": "Expiring today ({count})",
+  "@request_list_title_expires_today": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact",
+        "example": "10"
+      }
+    }
+  },
+  "request_list_title_all": "All requests  ({count})",
+  "@request_list_title_all": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact",
+        "example": "10"
+      }
+    }
+  },
+  "signed_request_list_title": "{count, plural, =0{No signed request} =1{1 signed request} other{{count} signed requests}}",
+  "@signed_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "rejected_request_list_title": "{count, plural, =0{No rejected request} =1{1 rejected request} other{{count} rejected requests}}",
+  "@rejected_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "validated_request_list_title": "{count, plural, =0{No validated request} =1{1 validated request} other{{count} validated requests}}",
+  "@validated_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "request_list_title_found": "{count, plural, =0{No request found} =1{1 request found} other{{count} requests found}}",
+  "@request_list_title_found": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "normal_text": "Normal",
+  "high_text": "High",
+  "very_high_text": "Very high",
+  "urgent_text": "Urgent",
+  "signed_request_date": "Signature date: {date}",
+  "@signed_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "andMd"
+      }
+    }
+  },
+  "validated_request_date": "Validation date: {date}",
+  "@validated_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "andMd"
+      }
+    }
+  },
+  "rejected_request_date": "Rejected date: {date}",
+  "@rejected_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "andMd"
+      }
+    }
+  },
+  "error_getting_request_explain": "Unable to load your requests.",
+  "error_getting_user_roles_explain": "Unable to load your profiles.",
+  "fall_generic": "CASCADE",
+  "kb": "Kb",
+  "add_certificate_explain_1_title": "Locate file",
+  "add_certificate_explain_1_subtitle": "Locate certificate file on mobile device. Regardless of whether you have it installed, this app needs the .p12 or .pfx. file",
+  "add_certificate_explain_2_title": "Send to device",
+  "add_certificate_explain_2_subtitle": "If you are unable to locate it, you can send it to your mobile from another device by email or another cloud application.",
+  "add_certificate_explain_3_title": "Save certificate",
+  "add_certificate_explain_3_subtitle": "Once located on your mobile, do not run or install it. Simply save it in the iPhone files app.",
+  "add_certificate": "Add certificate",
+  "choose_identification_method_description": "The identification method you choose will serve as your default login. You can change this identification method at any time.",
+  "selection_text": "Selection",
+  "petition_selection_singular": "{petition} request selected",
+  "@petition_selection_singular": {
+    "placeholders": {
+      "petition": {
+        "type": "int",
+        "example": "0"
+      }
+    }
+  },
+  "petition_selection_plural": "{petitions} requests selected",
+  "@petition_selection_plural": {
+    "placeholders": {
+      "petitions": {
+        "type": "int",
+        "example": "0"
+      }
+    }
+  },
+  "exit_text": "Exit",
+  "overlay_migration_error_message": "We have updated the application and tried unsuccessfully to import data from your server. To continue logging in through the same server, please add it again.",
+  "overlay_first_time_title": "New version of Portafirmas",
+  "overlay_first_time_message": "Your Portafirmas application has been updated to the latest version, which includes new improvements and important changes.",
+  "selected_server": "Selected server",
+  "selected_text": "Selected",
+  "enabled_text": "Activated",
+  "disabled_text": "Deactivated",
+  "sign_approve_text": "Sign or approve",
+  "press_twice_delete_validator": "Double-click to delete validator",
+  "press_twice_to_select": "Double-click to select",
+  "press_twice_to_open": "Double-click to open",
+  "error_filter_text": "",
+  "select_all_text": "Select all",
+  "undo_all_selection_text": "Undo selection",
+  "clave_not_valid_expired": "The Cl@ve Permanente has expired.",
+  "clave_not_valid_revoked": "The Cl@ve Permanente has been revoked.",
+  "clave_sign_in_unknown_user_title": "Sign-in error",
+  "clave_sign_in_unknown_user_description": "The user is not registered or is unknown. Verify your credentials or contact the administrator for assistance.",
+  "clave_sign_in_expired_description": "Try again later or use electronic certificate access.",
+  "clave_sign_in_revoked_description": "Try again later or use electronic certificate access.",
+  "clave_sign_in_service_validation_error_title": "Something went wrong!",
+  "clave_sign_in_service_validation_error_description": "An error occurred while trying to log in with Cl@ve Permanent. Please wait a few minutes before retrying the operation.",
+  "clave_sign_in_generic_error_description": "Identification with Cl@ve Permanente has failed. Please try again later or use electronic certificate access.",
+  "no_user_exception_title": "Login Error",
+  "no_user_exception_description": "The identification with Cl@ve Permanent has failed. Please try again later or use an electronic certificate to access.",
+  "external_link": "External link",
+  "error_signing_document_title": "The request could not be signed.",
+  "error_signing_document_subtitle": "The original document you wish to sign has some issues with its signatures. If you wish to sign it, you will need to do so through the website.",
+  "more_information": "More information",
+  "security_alert": "Segurity alert",
+  "security_alert_subtitle": "Your device does not have an official operating system. For security reasons, you cannot use this application."
+}

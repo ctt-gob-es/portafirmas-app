@@ -1,0 +1,673 @@
+{
+  "@@locale": "es",
+  "app_title": "Portafirmas",
+  "login_subtitle": "firma peticiones de forma sencilla",
+  "login_access_btn": "Acceder",
+  "login_help_sheet_title": "Acceso a Portafirmas",
+  "login_help_sheet_content_1": "Para poder acceder a Portafirmas, es necesario que tu organismo te haya creado una cuenta de usuario en tu servidor. Tu usuario podrá acceder tanto a Portafirmas desde la web como desde la app.\nPara entrar, necesitarás añadir un certificado electrónico a la app de Portafirmas o acceder mediante Cl@ve Permanente para utilizar tu certificado en la nube.\nSi tienes alguna duda o problema puedes contactar con el ",
+  "login_help_sheet_content_2": "Servicio de Soporte de tu organismo.",
+  "access_button_change_auth": "Cambiar método de identificación",
+  "access_button_server_manage": "Administración de servidores",
+  "general_understood": "Entendido",
+  "general_continue": "Continuar",
+  "general_try_again": "Volver a intentarlo",
+  "general_back": "Atrás",
+  "general_clave": "Cl@ve Permanente",
+  "general_certificate": "Certificado electrónico",
+  "general_dni": "DNI electrónico",
+  "general_need_help": "¿Necesitas ayuda?",
+  "general_clave_portal": "Portal Cl@ve",
+  "general_call_060": "Llamar al 060",
+  "general_contact_form": "Formulario de contacto",
+  "general_pass": "Contraseña",
+  "general_server": "Servidor",
+  "general_change": "Cambiar",
+  "general_change_server": "Cambiar servidor",
+  "general_change_cert": "Cambiar certificado",
+  "general_register_me": "Registrarme",
+  "general_select": "Seleccionar",
+  "general_add": "Añadir",
+  "general_modify": "Modificar",
+  "general_retry": "Reintentar",
+  "general_save": "Guardar",
+  "general_problem_title": "Ha ocurrido un problema",
+  "error_text": "Error",
+  "error_new_version_title": "Nueva versión disponible",
+  "error_new_version_subtitle": "Hay una nueva actualización de Portafirmas.",
+  "skip_text": "Omitir",
+  "error_update_app_title": "Actualización obligatoria Portafirmas v.",
+  "error_update_app_subtitle": "Para poder continuar utilizando la aplicación, debes actualizarla.",
+  "error_update_button": "Actualizar",
+  "version_text": "Versión v{version}",
+  "@version_text": {
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "2.0.3"
+      }
+    }
+  },
+  "error_login_cert_title": "Error de inicio de sesión",
+  "error_login_cert_subtitle": "¡Algo salió mal! Se ha producido un error en iniciar la sesión con certificado. Espera unos minutos antes de reintentar la operación.",
+  "server_default_general_title": "Servidor General AGE",
+  "server_default_general_subtitle": "Organismos de la Administración General del Estado.",
+  "server_default_redsara_title": "Servidor resto de Administraciones",
+  "server_default_redsara_subtitle": "CCAA, EELL, Universidades y otros organismos dados de alta en este servicio.",
+  "select_server_title": "¿Qué servidor quieres usar?",
+  "select_server_subtitle": "Si no conoces el servidor al que te debes conectar, ponte en contacto con el Servicio de Soporte de de tu organismo. Tu usuario debe estar previamente dado de alta en el servidor seleccionado.",
+  "select_server_add_server_title": "¿Quieres añadir otro servidor?",
+  "select_server_add_server_sub": "Si tu organismo tiene un servidor específico podrás añadir un nuevo servidor.",
+  "select_server_add_server": "Añadir servidor",
+  "add_server_title": "Añadir nuevo servidor",
+  "add_server_sub": "Para añadir un nuevo servidor será necesario asignarle un alias y una URL.",
+  "add_server_textfield_1_label": "Introduce un alias",
+  "add_server_textfield_1_hint": "Mi servidor",
+  "add_server_textfield_2_label": "URL",
+  "add_server_save_btn": "Guardar servidor",
+  "add_server_modal_success_title": "Servidor añadido",
+  "add_server_modal_success_sub": "Se ha añadido el servidor {serverName} correctamente.",
+  "@add_server_modal_success_sub": {
+    "placeholders": {
+      "serverName": {
+        "type": "String",
+        "example": "Mi servidor"
+      }
+    }
+  },
+  "add_server_modal_error_title": "Error al añadir el servidor",
+  "add_server_modal_error_sub": "No hemos podido añadir el servidor {serverName} correctamente, revisa la URL añadida o vuelve a añadirlo de nuevo.",
+  "@add_server_modal_error_sub": {
+    "placeholders": {
+      "serverName": {
+        "type": "String",
+        "example": "Mi servidor"
+      }
+    }
+  },
+  "expired_session_modal_header": "La sesión ha expirado",
+  "expired_session_modal_description": "La sesión de Mi Portafirmas caduca periódicamente para mantener la seguridad. Por favor, vuelve a iniciar sesión.",
+  "add_server_server_url": "Introduce la URL del servidor",
+  "add_server_server_url_format_error": "El formato de la URL no es válido",
+  "choose_id_title": "Elige el método de identificación",
+  "choose_id_register": "Registrarme en Cl@ve Permanente",
+  "choose_id_overlay_clave_title": "Elige la forma de registro que mejor se adapte a ti",
+  "choose_id_overlay_help_sub": "Si necesitas información adicional sobre Cl@ve sobre cómo utilizarlo o registrarte, puedes hacerlo a través de los siguientes medios.",
+  "choose_id_overlay_videocall": "Videollamada o carta",
+  "choose_id_overlay_in_person": "Presencial",
+  "choose_id_overlay_youtube": "Accede a nuestro canal de Youtube",
+  "choose_id_overlay_clave_sub": "Si necesitas información adicional sobre Cl@ve sobre cómo utilizarlo o registrarte, puedes hacerlo a través de los siguientes medios.",
+  "generic_detail": "Detalle",
+  "detail_title": "Pliego obra pantanal",
+  "detail_subtitle": "De: ",
+  "generic_more_details": "Más detalles",
+  "detail_pendent_sign_title": "Petición pendiente de firmar como autorizado de:",
+  "generic_init_date": "Fecha de última actualización",
+  "generic_expired_date": "Fecha de caducidad",
+  "generic_reference": "Referencia",
+  "generic_remarks": "Observaciones",
+  "generic_sign": "Firma",
+  "generic_applicant": "Solicitante",
+  "generic_approval": "Visto bueno",
+  "generic_application": "Aplicación",
+  "generic_message": "Mensaje",
+  "generic_addressee": "Destinatarios",
+  "generic_annexes": "Anexos",
+  "generic_annex": "Anexo",
+  "addressee_parallel_header": "Firma en paralelo",
+  "addressee_parallel_title": "Los firmantes pueden realizar la firma o visto bueno de la petición sin un orden establecido.",
+  "addressee_fall_header": "Firma en cascada",
+  "addressee_fall_title": "Los firmantes deben realizar la firma o visto bueno en el orden establecido por el solicitante en la petición de firma. Un firmante sólo puede realizar la acción una vez completada por el predecesor.",
+  "documentos_page_error": "No es posible previsualizar este archivo.",
+  "generic_documents_to_sign": "Documentos a firmar",
+  "generic_documents": "Documentos",
+  "generic_button_sign": "Firmar / VB",
+  "generic_button_reject": "Rechazar",
+  "generic_button_validate": "Validar",
+  "validate_module_title": "Validación de petición",
+  "validate_module_petitions_title": "Validación de peticiones",
+  "validate_module_petitions_subtitle": "Vas a validar {numPetitions} peticiones.",
+  "@validate_module_petitions_subtitle": {
+    "placeholders": {
+      "numPetitions": {}
+    }
+  },
+  "validate_module_subtitle": "Vas a validar la petición.",
+  "validate_module_title_final_step": "Petición validada con éxito",
+  "validate_multiple_module_title_final_step": "Peticiones validadas con éxito",
+  "validate_module_subtitle_final_step": "Has validado la petición correctamente.",
+  "validate_multiple_module_subtitle_final_step": "Has validado {petitions} peticiones.",
+  "@validate_multiple_module_subtitle_final_step": {
+    "placeholders": {
+      "petitions": {}
+    }
+  },
+  "sign_validate_title": "Firma/VB de peticiones",
+  "sign_validate_subtitle_simple": "Vas a firmar/dar el visto bueno la petición\n",
+  "sign_validate_subtitle_sign_reqs": "Vas a {signReqs, plural, =0{} =1{firmar 1 petición} other{firmar {signReqs} peticiones}}",
+  "@sign_validate_subtitle_sign_reqs": {
+    "placeholders": {
+      "signReqs": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "y_text": "y",
+  "sign_validate_subtitle_approval_reqs": "{approvalReqs, plural, =0{} =1{dar el visto bueno a 1 petición} other{dar el visto bueno a {approvalReqs} peticiones.}}",
+  "@sign_validate_subtitle_approval_reqs": {
+    "placeholders": {
+      "signReqs": {
+        "type": "int",
+        "example": "2"
+      },
+      "approvalReqs": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "generic_message_module_final_step_title": "Peticiones firmadas con éxito",
+  "generic_message_module_final_step_title_simple": "Petición firmada/VB con éxito",
+  "detail_sign_module_final_text_simple": "Has firmado/dado el visto bueno a la petición correctamente.",
+  "detail_sign_module_final_text": "Has firmado {petitions, plural, =1{1 petición} other{{petitions} peticiones}} y dado el visto bueno a {checkPetitions, plural, =1{1 petición} other{{checkPetitions} peticiones}}.",
+  "@detail_sign_module_final_text": {
+    "placeholders": {
+      "petitions": {},
+      "checkPetitions": {}
+    }
+  },
+  "sign_validate_cloud_certificate": "con el certificado en la nube.",
+  "sign_validate_cert_name": "con el certificado {certName}",
+  "@sign_validate_cert_name": {
+    "placeholders": {
+      "certName": {
+        "type": "String",
+        "example": "My cert"
+      }
+    }
+  },
+  "cert_valid_till": "Válido hasta: ",
+  "cert_not_valid": "El certificado no es válido",
+  "cert_not_valid_description": "Se ha producido un error de validación de certificados y no se ha podido iniciar sesión en Portafirmas. Inténtalo de nuevo con otro certificado.",
+  "cert_use": "Uso: ",
+  "cert_emitter": "Emisor: ",
+  "servers_title": "Servidores",
+  "servers_subtitle": "Servidores guardados en la app",
+  "servers_text_guide": "Selecciona de la lista el servidor que quieres usar como predeterminado.",
+  "servers_edit_servers": "Editar servidor seleccionado",
+  "servers_notification_edit": "Se ha cambiado el servidor predeterminado",
+  "edit_server_title": "Editar servidor",
+  "edit_server_subtitle": "¿Qué servidor quieres editar?",
+  "edit_server_delete": "Eliminar servidor",
+  "delete_server_text": "¿Estás seguro de eliminar el servidor seleccionado? Si continuas se autoseleccionará el siguiente en la lista como predeterminado.",
+  "delete_server_notification": "Se ha eliminado el servidor",
+  "onboarding_1_title": "Firma peticiones",
+  "onboarding_1_subtitle": "Accede a las peticiones pendientes\n y firma o da el visto bueno.",
+  "onboarding_2_title": "Comparte documentos",
+  "onboarding_2_subtitle": "Comparte los documentos asociados a\nlas peticiones de firma por correo o por el\nmedio que prefieras.",
+  "onboarding_3_title": "Consulta los detalles\n de la petición",
+  "onboarding_3_subtitle": "Accede al documento de firma, revisa\n los anexos y obtén la información \nnecesaria para firmar.",
+  "end_msg": "Finalizar",
+  "next_msg": "Siguiente",
+  "skip_msg": "Saltar",
+  "filters_title": "Filtros",
+  "filters_order": "Ordenación",
+  "filters_select_order": "Selecciona orden",
+  "filters_select_sort": "Selecciona ordenación",
+  "filters_select_request_type": "Selecciona tipo de petición",
+  "filters_enter_topic": "Introduce asunto o nombre de usuario",
+  "filters_select_time_interval": "Selecciona intervalo de tiempo",
+  "filters_application": "Selecciona aplicación",
+  "filters_clear_filters_button": "Limpiar filtros",
+  "filters_apply_filters_button": "Aplicar filtros",
+  "filters_more_recent_req": "Peticiones más recientes",
+  "filters_oldest_req": "Peticiones más antiguas",
+  "filters_req_about_to_expire": "Peticiones próximas a caducar",
+  "filters_all_req": "Todas",
+  "filters_validated_req": "Peticiones validadas",
+  "filters_not_validated_req": "Peticiones no validadas",
+  "filters_sign_req": "Peticiones de firma",
+  "filters_approval_req": "Peticiones de visto bueno",
+  "filters_last_24h": "Últimas 24 horas",
+  "filters_last_week": "Última semana",
+  "filters_last_month": "Último mes",
+  "filters_chip_not_validated": "No validadas",
+  "pending_tab_text": "Pendientes",
+  "rejected_tab_text": "Rechazadas",
+  "validated_tab_text": "Validadas",
+  "signed_tab_text": "Firmadas",
+  "signature_text": "Firma",
+  "approval_text": "Visto bueno",
+  "request_tips_1": "Estas viendo las ",
+  "request_tips_2": "peticiones validadas",
+  "select_profile_title": "¿Con qué perfil quieres acceder?",
+  "request_notification_title": "Información",
+  "request_notification_message": "Entrando como firmante podrás firmar tus peticiones y si aplicase, las que recibes como autorizado (sustituto o delegado) de alguien. Si entras como validador, podrás validar las peticiones pertenecientes a la persona de la que eres validador/a.",
+  "request_data_card_priority": "Prioridad",
+  "request_data_card_last_date": "Fecha",
+  "request_data_card_expiration_date": "Caducidad",
+  "request_data_card_status": "Estado",
+  "request_data_card_status_rejected": "Rechazada",
+  "request_data_card_status_cancelled": "Cancelada",
+  "request_data_card_status_revoked": "Revocada",
+  "request_data_card_limit_date": "{count, plural, =0{Hoy} =1{Quedan 1 dia} other{Quedan {count} días}}",
+  "@request_data_card_limit_date": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "request_reject_module_title": "Rechazo de peticiones",
+  "request_reject_module_text_simple": "Vas a rechazar la petición.",
+  "request_reject_module_text": "Vas a rechazar {rejectedRequests} peticiones.",
+  "@request_reject_module_text": {
+    "placeholders": {
+      "rejectedRequests": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "detail_reject_module_input_label": "Motivo (opcional)",
+  "detail_reject_module_input_comment": "Realiza tu comentario",
+  "general_cancel": "Cancelar",
+  "reject_module_final_title_plural": "Peticiones rechazadas con éxito",
+  "reject_module_final_title_simple": "Petición rechazada con éxito",
+  "reject_module_simple_subtitle": "Se ha rechazado la petición correctamente.",
+  "reject_module_plural_subtitle": "Se han rechazado {rejectedRequests} peticiones.",
+  "@reject_module_plural_subtitle": {
+    "placeholders": {
+      "rejectedRequests": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "register_cert_title": "Registra tu certificado",
+  "register_cert_btn": "Registrar certificado",
+  "cert_pass_title": "Contraseña certificado",
+  "cert_pass_subtitle": "Introduce la contraseña para instalar el certificado: {certName}",
+  "@cert_pass_subtitle": {
+    "placeholders": {
+      "certName": {
+        "type": "String",
+        "example": "Mi certificado"
+      }
+    }
+  },
+  "cert_not_valid_expired": "El certificado está caducado.",
+  "cert_not_valid_revoked": "El certificado está revocado.",
+  "cert_not_valid_user_no_permission": "El usuario no tiene permisos",
+  "cert_not_valid_description_expired": "Por favor, póngase en contacto con el administrador del sistema para solicitar el acceso o verificar sus credenciales.",
+  "cert_not_valid_description_revoked": "Por favor, póngase en contacto con el administrador del sistema para solicitar el acceso o verificar sus credenciales.",
+  "cert_not_valid_description_user_no_permission": " El usuario no dispone de una cuenta en este portafirmas. Verifique sus credenciales o póngase en contacto con el administrador para solicitar acceso.",
+  "cert_added_title": "Certificado añadido",
+  "cert_added_subtitle": "El certificado se ha añadido correctamente en la app de Portafirmas.",
+  "cert_error_adding_title": "No hemos podido añadir tu certificado",
+  "cert_error_adding_subtitle": "No hemos podido añadir tu certificado a la aplicación de Portafirmas de manera correcta. \nInténtalo de nuevo más tade.",
+  "certificate_list_title": "Certificados",
+  "certificate_list_subtitle": "Certificados añadidos en la app",
+  "certificate_not_found_subtitle": "No se encuentra ningún certificado disponible",
+  "certificate_error_problems_with_certificates_title": "Problemas al seleccionar",
+  "certificate_error_problems_with_certificates_subtitle": "Recuerda que si quieres acceder a la app debes seleccionar un certificado o añadir uno nuevo. Puedes añadirlo desde el botón añadir del menú superior.",
+  "certificate_warning_has_certificates_installed_title": "¿Tienes certificados instalados?",
+  "certificate_warning_has_certificates_installed_subtitle": "Si no tienes instalado ningún certificado, puedes añadirlo desde el botón añadir del menú superior. Si ya tienes tu certificado instalado, debes seleccionarlo para poder usarlo en Portafirmas.",
+  "certificate_empty_title": "No tienes certificados instalados",
+  "certificate_empty_subtitle": "Instala un nuevo certificado desde el botón añadir del menú superior.",
+  "default_certificate_explain": "Es necesario seleccionar un certificado para acceder a la aplicación",
+  "certificate_deleted_overlay_success_title": "Certificado eliminado",
+  "certificate_deleted_overlay_success_subtitle": "Se ha eliminado el certificado {certName}",
+  "@certificate_deleted_overlay_success_subtitle": {
+    "placeholders": {
+      "certName": {
+        "type": "String"
+      }
+    }
+  },
+  "cert_card_emitter": "Emisor: {emitter}",
+  "@cert_card_emitter": {
+    "placeholders": {
+      "emitter": {
+        "type": "String",
+        "example": "FMNT"
+      }
+    }
+  },
+  "cert_card_valid_date": "Válido hasta: {date}",
+  "@cert_card_valid_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "cert_usage_label": "Uso: {usage}",
+  "@cert_usage_label": {
+    "placeholders": {
+      "usage": {
+        "type": "String"
+      }
+    }
+  },
+  "cert_usage_signing": "Firma",
+  "cert_usage_authentication": "Autenticación",
+  "cert_usage_encryption": "Encriptado",
+  "cert_list_delete": "Eliminar certificado seleccionado",
+  "generic_informs_sign": "Informes de firma",
+  "info_sign_module": "Este documento está firmado electrónicamente. Aunque no se pueda ver en la previsualización del archivo, el documento tiene asociadas las firmas correspondientes, como se puede comprobar abriéndose el archivo en Adobe Acrobat.",
+  "info_generic_informs_module": "Este documento no lleva firmas asociadas, es un justificante de las firmas asociadas a ese documento con los datos necesarios para poder identificarlo, y con el código seguro de verificación (CSV) para poder localizarlo a través de la Sede Electrónica de la Administración. Desde ahí, se podrá descargar el documento firmado.",
+  "language_text": "Idioma",
+  "close_text": "Cerrar",
+  "user_text": "Usuario",
+  "result_text": " resultados",
+  "active_text": "Activa",
+  "revoked_text": "Rechazada",
+  "inactive_text": "Inactiva",
+  "pending_text": "Pendiente",
+  "accept_text": "Aceptar",
+  "decline_text": "Rechazar",
+  "delegate_user_text": "Delegado",
+  "substitute_user_text": "Sustituto",
+  "signer_user_text": "Firmante",
+  "profile_text": "Perfil",
+  "profiles_text": "Perfiles",
+  "authorization_text": "Autorizaciones",
+  "validation_text": "Validadores",
+  "petition_send_text": "Enviadas",
+  "petition_received_text": "Recibida",
+  "petition_received_plural_text": "Recibidas",
+  "authorization_state_text": "Estado",
+  "push_notifications_text": "Avisos push",
+  "support_text": "Soporte",
+  "help_text": "AYUDA",
+  "questions_text": "Preguntas frecuentes",
+  "policy_text": "Política de privacidad",
+  "accesibility_text": "Accesibilidad",
+  "legal_warning_text": "Aviso legal",
+  "observation_text": "Observaciones",
+  "logout_text": "Cerrar sesión",
+  "date_start_text": "Desde",
+  "date_end_text": "Hasta",
+  "date_empty_text": "Sin fecha",
+  "date_starting_date_text": "Fecha de inicio",
+  "date_ending_date_text": "Fecha de fin: ",
+  "authorization_type_text": "Tipo de autorización",
+  "authorization_received_type_text": "Tipo de solicitud",
+  "authorization_time_text": "Tiempo de autorización",
+  "authorization_type_user_text": "Tipo de autorizado",
+  "validator_of_user_text": "Validador de ",
+  "new_validator_text": "Nuevo validador",
+  "error_result_text": "No se han encontrado resultados",
+  "error_result_text_tip": "Prueba con otra palabra clave para iniciar de nuevo la búsqueda,",
+  "new_authorized_text": "Nuevo autorizado",
+  "textfield_hint_text": "Introduce nombre, NIF",
+  "add_new_authorized_button": "Añadir nuevo",
+  "add_new_validator_button": "Añadir nuevo validador",
+  "send_petition_button": "Enviar autorización",
+  "cancel_petition_button": "Cancelar autorización",
+  "add_validator_success": "Validador añadido con éxito",
+  "request_send_success": "Solicitud enviada con éxito",
+  "request_send_failed": "Ha ocurrido un problema",
+  "request_send_failed_text": "No hemos podido cargar el detalle de la petición seleccionada.",
+  "request_failed_max_time": "Se ha superado el tiempo máximo de espera del servicio",
+  "settings_screen_configuration_title": "MI CONFIGURACIÓN",
+  "settings_screen_information_title": "INFORMACIÓN GENERAL",
+  "settings_screen_validators_menu": "Gestión de validadores",
+  "settings_screen_authorizations_menu": "Gestión de autorizaciones",
+  "profiles_screen_subtitle": "Selecciona el perfil con el que quieres\n acceder a tu Portafirmas",
+  "profiles_screen_description": "Entrando como firmante podrás firmar tus peticiones y si aplicase, las que recibes como autorizado (sustituto o delegado) de alguien. Si entras como validador, podrás validar las peticiones pertenecientes a la persona de la que eres validador/a.",
+  "validators_screen_subtitle": "Estas son las personas que has autorizado como validadores de tus peticiones.",
+  "add_new_validator_modal": "Has añadido a {validatorName} a tu lista de validadores.",
+  "@add_new_validator_modal": {
+    "placeholders": {
+      "validatorName": {
+        "type": "String",
+        "example": "@name"
+      }
+    }
+  },
+  "add_new_validator_modal_failed": "No se ha podido añadir como validador a {validatorName}. Inténtelo de nuevo más tarde.",
+  "@add_new_validator_modal_failed": {
+    "placeholders": {
+      "validatorName": {
+        "type": "String",
+        "example": "@name"
+      }
+    }
+  },
+  "error_message_timeExpired_request": "El servidor ha tardado en responder más de lo habitual. Por favor, revisa si tu petición se ha cursado correctamente.",
+  "error_message_timeExpired_requests": "El servidor ha tardado en responder más de lo habitual. Por favor, revisa si tus peticiones se han cursado correctamente.",
+  "error_message_invalid_signature": "El documento contiene firmas no válidas. Si desea firmarlo, acceda a la web de Portafirmas.",
+  "error_message_invalid_signature_title": "El documento contiene firmas no válidas.",
+  "error_message_invalid_signature_subtitle": "Si desea firmarlo, acceda a la web de Portafirmas.",
+  "error_message_doc_signature_faild": "El documento que desea firmar presenta problemas que impiden realizar su firma. ",
+  "revoke_request_failed": "No se ha podido rechazar la petición. Inténtalo de nuevo más tarde.",
+  "revoke_requests_failed": "No se han podido rechazar las peticiones. Inténtalo de nuevo más tarde.",
+  "sign_validate_request_failed": "No se ha podido firmar/dar el visto bueno a la petición. Inténtalo de nuevo más tarde.",
+  "sign_validate_requests_failed": "No se han podido firmar/dar el visto bueno a las peticiones. Inténtalo de nuevo más tarde.",
+  "sign_validate_problem": "Hemos tenido un problema",
+  "sign_validate_requests_signed_reqs": "Se {successfulSigns, plural, =0{} =1{ha firmado correctamente {successfulSigns} petición} other{han firmado correctamente {successfulSigns} peticiones}} {successfulApprovals, plural, =0{} =1{y se ha dado el visto bueno a 1 petición} other{y se ha dado el visto bueno a {successfulApprovals} peticiones}}",
+  "@sign_validate_requests_signed_reqs": {
+    "placeholders": {
+      "successfulSigns": {
+        "type": "int",
+        "example": "2"
+      },
+      "successfulApprovals": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "sign_validate_requests_not_signed_reqs": ", pero no se {failedSigns, plural, =0{} =1{ha podido firmar 1 petición} other{han podido firmar {failedSigns} peticiones}} peticiones {failedApprovals, plural, =0{} =1{ni dar visto bueno a 1 petición con éxito} other{ni dar visto bueno a {failedApprovals} peticiones con éxito}}. Inténtelo de nuevo más tarde.",
+  "@sign_validate_requests_not_signed_reqs": {
+    "placeholders": {
+      "failedSigns": {
+        "type": "int",
+        "example": "2"
+      },
+      "failedApprovals": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "validate_requests_failed": "No se han podido validar las peticiones. Inténtalo de nuevo más tarde.",
+  "validate_request_failed": "No se ha podido valdar la petición. Inténtalo de nuevo más tarde.",
+  "petition_send_tab_subtitle": "Has autorizado a las siguientes personas para que firmen o den visto bueno las peticiones por ti:",
+  "petition_received_tab_subtitle": "Estas son las personas que te han autorizado para que firmes o des el visto bueno a sus peticiones.",
+  "petition_send_alert_message": "No has enviado\nninguna autorización",
+  "petition_received_alert_message": "No has recibido\nninguna autorización",
+  "authorization_details_screen_observation_textbox": "Escribe observaciones relacionadas con la autorización.",
+  "authorization_details_screen_send_subtitle": "Autorización enviada",
+  "authorization_details_screen_received_subtitle": "Autorización recibida",
+  "petition_information": "Información de la autorización",
+  "petition_description_success": "Tu solicitud de autorizado para {userNames} se ha enviado correctamente. El usuario tendrá que aceptar tu solicitud.",
+  "@petition_description_success": {
+    "placeholders": {
+      "userNames": {
+        "type": "String",
+        "example": "Juan Sánchez Pérez"
+      }
+    }
+  },
+  "petition_description_failed": "No se ha podido enviar la solicitud de nuevo autorizado para {userNames} Inténtelo de nuevo en unos minutos.",
+  "@petition_description_failed": {
+    "placeholders": {
+      "userNames": {
+        "type": "String",
+        "example": "Juan Sánchez Pérez"
+      }
+    }
+  },
+  "something_went_wrong_modal_title": "¡Algo salió mal!",
+  "server_internal_error_description": "Se ha producido un error interno en el servidor. Espera unos minutos antes de reintentar la operación.",
+  "empty_pending_request_with_validator_title": "No se han encontrado resultados",
+  "empty_pending_request_with_validator_subtitle": "No se han encontrado peticiones validadas pendientes de firmar o dar el visto bueno. Prueba cambiando los filtros por “ver todas”",
+  "empty_pending_request_without_filter_subtitle": "No tienes peticiones pendientes de firmar o dar el visto bueno.",
+  "empty_pending_request_normal_title": "No se han encontrado resultados",
+  "empty_pending_request_normal_subtitle": "No se han encontrado peticiones pendientes con los filtros aplicados, prueba a cambiar los filtros para realizar una nueva búsqueda.",
+  "empty_signed_request_title": "No tienes peticiones firmadas",
+  "empty_rejected_request_title": "No tienes peticiones rechazadas",
+  "empty_validated_request_title": "No tienes peticiones validadas",
+  "empty_validator_text": "No tienes validadores",
+  "empty_signed_rejected_request_with_filters_title": "No se han encontrado resultados con los filtros aplicados",
+  "request_list_title_expires_today": "Caducan hoy ({count})",
+  "@request_list_title_expires_today": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact",
+        "example": "10"
+      }
+    }
+  },
+  "request_list_title_all": "Todas las peticiones  ({count})",
+  "@request_list_title_all": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact",
+        "example": "10"
+      }
+    }
+  },
+  "signed_request_list_title": "{count, plural, =0{Ninguna petición firmada} =1{1 petición firmada} other{{count} peticiones firmadas}}",
+  "@signed_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "rejected_request_list_title": "{count, plural, =0{Ninguna petición rechazada} =1{1 petición rechazada} other{{count} peticiones rechazadas}}",
+  "@rejected_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "validated_request_list_title": "{count, plural, =0{Ninguna petición validada} =1{1 petición validada} other{{count} peticiones validadas}}",
+  "@validated_request_list_title": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "request_list_title_found": "{count, plural, =0{Ninguna petición encontrada} =1{1 petición encontrada} other{{count} peticiones encontradas}}",
+  "@request_list_title_found": {
+    "description": "A plural message",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "normal_text": "Normal",
+  "high_text": "Alta",
+  "very_high_text": "Muy alta",
+  "urgent_text": "Urgente",
+  "signed_request_date": "Fecha firma: {date}",
+  "@signed_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "validated_request_date": "Fecha validación: {date}",
+  "@validated_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "rejected_request_date": "Fecha rechazo: {date}",
+  "@rejected_request_date": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "error_getting_request_explain": "No hemos podido cargar tus peticiones.",
+  "error_getting_user_roles_explain": "No hemos podido cargar tus perfiles.",
+  "fall_generic": "CASCADA",
+  "kb": "Kb",
+  "add_certificate_explain_1_title": "Localiza el archivo",
+  "add_certificate_explain_1_subtitle": "Localiza el archivo del certificado en el móvil. Da igual que lo tengas instalado, esta app necesita el archivo .p12 o .pfx.",
+  "add_certificate_explain_2_title": "Envía al dispositivo",
+  "add_certificate_explain_2_subtitle": "Si no lo encuentras, envíalo a tu móvil desde otro dispositivo mediante correo electrónico u otras aplicaciones en cloud.",
+  "add_certificate_explain_3_title": "Guarda el certificado",
+  "add_certificate_explain_3_subtitle": "Una vez lo tengas localizado en tu móvil,no lo ejecutes ni instales, guárdalo en la app Archivos del iPhone.",
+  "add_certificate": "Añadir certificado",
+  "choose_identification_method_description": "El método de identificación que elijas será con el que accederás de forma predeterminada. Podrás cambiar el método de identificación cuando quieras.",
+  "selection_text": "Selección",
+  "petition_selection_singular": "{petition} petición seleccionada ",
+  "@petition_selection_singular": {
+    "placeholders": {
+      "petition": {
+        "type": "int",
+        "example": "0"
+      }
+    }
+  },
+  "petition_selection_plural": "{petitions} peticiones seleccionadas ",
+  "@petition_selection_plural": {
+    "placeholders": {
+      "petitions": {
+        "type": "int",
+        "example": "0"
+      }
+    }
+  },
+  "exit_text": "Salir",
+  "overlay_migration_error_message": "Hemos actualizado la aplicación e intentado importar los datos de tu servidor, pero no ha sido posible. Si deseas continuar accediendo a través de ese servidor, debes añadirlo de nuevo. ",
+  "overlay_first_time_title": "Nueva versión de Portafirmas",
+  "overlay_first_time_message": "Tu aplicación de Portafirmas se ha actualizado a la última versión, que incorpora nuevas mejoras e importantes cambios.",
+  "selected_server": "Servidor seleccionado",
+  "selected_text": "Seleccionado",
+  "enabled_text": "Activado",
+  "disabled_text": "Desactivado",
+  "sign_approve_text": "Firmar o dar visto bueno",
+  "press_twice_delete_validator": "Pulsar dos veces para eliminar validador",
+  "press_twice_to_select": "Pulsar dos veces para seleccionar",
+  "press_twice_to_open": "Pulsar dos veces para abrir",
+  "error_filter_text": "Error, no aceptamos caracteres especiales",
+  "select_all_text": "Seleccionar todas",
+  "undo_all_selection_text": "Deshacer selección",
+  "clave_not_valid_expired": "La Cl@ve Permanente ha sido caducada.",
+  "clave_not_valid_revoked": "La Cl@ve Permanente ha sido revocada.",
+  "clave_sign_in_unknown_user_title": "Error de inicio de sesión",
+  "clave_sign_in_unknown_user_description": "El usuario no está registrado o es desconocido. Verifique sus credenciales o póngase en contacto con el administrador para obtener asistencia.",
+  "clave_sign_in_expired_description": "Inténtalo de nuevo más tarde o prueba el acceso mediante certificado electrónico.",
+  "clave_sign_in_revoked_description": "Inténtalo de nuevo más tarde o prueba el acceso mediante certificado electrónico.",
+  "clave_sign_in_service_validation_error_title": "¡Algo salió mal!",
+  "clave_sign_in_service_validation_error_description": " Se ha producido un error en iniciar la sesión con Cl@ve Permanente. Espera unos minutos antes de reintentar la operación.",
+  "clave_sign_in_generic_error_description": "Ha fallado la identificación en Cl@ve Permanente. Inténtalo de nuevo más tarde o prueba el acceso mediante certificado electrónico.",
+  "no_user_exception_title": "Error de inicio de sesión",
+  "no_user_exception_description": "Ha fallado la identificación en Cl@ve Permanente. Inténtalo de nuevo más tarde o prueba el acceso mediante certificado electrónico.",
+  "external_link" : "Enlace externo",
+  "error_signing_document_title" : "La petición no se ha podido firmar",
+  "error_signing_document_subtitle": "El documento original que deseas firmar tiene algún problema con sus firmas. Si deseas firmarlo deberás hacerlo a través de la web.",
+  "more_information": "Más información",
+  "security_alert" : "Alerta de seguridad",
+  "security_alert_subtitle" : "Tu dispositivo no tiene un sistema operativo oficial. Por razones de seguridad, no puedes utilizar esta aplicación."
+}

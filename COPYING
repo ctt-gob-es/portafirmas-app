@@ -1,0 +1,26 @@
+Este programa se distribuye como un todo bajo la licencia EUPLv1.2 o versiones posteriores.
+
+Puede obtenerse una copia de la Licencia en el archivo /legal/licenses/EUPL v1.2_en.pdf  (disponible en castellano en /legal/licenses/EUPL v1.2_es.pdf) o en la siguiente
+url: http://joinup.ec.europa.eu/software/page/eupl/licence-eupl
+
+Este programa incluye los siguientes programas de terceros bajo sus respectivas licencias:
+- Common Public License Version 1.0 -http://www.opensource.org/licenses/cpl1.0.txt
+- The Apache Software License, Version 2.0 -http://www.apache.org/licenses/LICENSE-2.0.txt
+- MIT License -http://www.opensource.org/licenses/mit-license.php
+- The W3C Software License -http://www.w3.org/Consortium/Legal/copyright-software-19980720
+- GNU Lesser Public License -http://www.gnu.org/licenses/lgpl.html
+- The OpenSymphony Software License 1.1 -http://opensymphony.com/webwork/license.action (This license is derived and fully compatible with the Apache Software License -see http://www.apache.org/LICENSE.txt)
+- The BSD License -http://www.antlr.org/license.html
+- CDDL -https://opensource.org/licenses/CDDL-1.0
+- GPLv2+CE -http://openjdk.java.net/legal/gplv2+ce.html (GPL version 2 plus the Classpath Exception)
+- GNU Lesser General Public License 3.0 -http://www.gnu.org/licenses/lgpl-3.0.txt
+- GNU Lesser General Public License 2.1 -http://www.gnu.org/licenses/lgpl-2.1.html
+- Mozilla Public License -http://www.mozilla.org/MPL/MPL-1.1.html
+- Bouncy Castle License -http://www.bouncycastle.org/licence.html
+- BSD style -http://www.opensource.org/licenses/bsd-license.php
+
+Puede obtenerse una copia de cada una de estas licencias de terceros utilizadas en el programa en la carpeta /legal/licenses
+Fecha: octubre 2024
+
+Contacto del propietario de la aplicación: SGAD Secretaria General de Administración Digital, Ministerio para la Transformación Digital y de la Función Pública
+Email: appfactory@correo.gob.es
