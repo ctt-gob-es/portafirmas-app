@@ -1,3 +1,0 @@
-dependencies {
-	classpath 'com.dynatrace.tools.android:gradle-plugin:8.283.1.1004'
-}
